@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BOOSEGraphicsEnvironment", "BOOSEGraphicsEnvironment.csproj", "{C7BE8E48-FD55-4D2F-87DD-A88F867F3CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTest", "..\AppTest\AppTest.csproj", "{420AA58B-DFF4-4849-8C67-DD8407552A7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7BE8E48-FD55-4D2F-87DD-A88F867F3CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7BE8E48-FD55-4D2F-87DD-A88F867F3CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7BE8E48-FD55-4D2F-87DD-A88F867F3CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7BE8E48-FD55-4D2F-87DD-A88F867F3CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{420AA58B-DFF4-4849-8C67-DD8407552A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{420AA58B-DFF4-4849-8C67-DD8407552A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{420AA58B-DFF4-4849-8C67-DD8407552A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{420AA58B-DFF4-4849-8C67-DD8407552A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {981CB602-05D1-4731-8894-FA3268913AEF}
+	EndGlobalSection
+EndGlobal
