@@ -1,0 +1,589 @@
+### YamlMime:ManagedReference
+items:
+- uid: AppTest.AppCommandFactoryTests
+  commentId: T:AppTest.AppCommandFactoryTests
+  id: AppCommandFactoryTests
+  parent: AppTest
+  children:
+  - AppTest.AppCommandFactoryTests.Init
+  - AppTest.AppCommandFactoryTests.MakeCommand_KnownCommands_ReturnsExpectedType(System.String,System.Type)
+  - AppTest.AppCommandFactoryTests.MakeCommand_NullOrWhitespace_ThrowsFactoryException(System.String)
+  - AppTest.AppCommandFactoryTests.MakeCommand_UnknownCommand_ThrowsFactoryException
+  - AppTest.AppCommandFactoryTests.factory
+  langs:
+  - csharp
+  - vb
+  name: AppCommandFactoryTests
+  nameWithType: AppCommandFactoryTests
+  fullName: AppTest.AppCommandFactoryTests
+  type: Class
+  source:
+    remote:
+      path: AppTest/AppCommandFactoryTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: AppCommandFactoryTests
+    path: ../AppTest/AppCommandFactoryTests.cs
+    startLine: 9
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Contains unit tests for the <xref href="BOOSEGraphicsEnvironment.AppCommandFactory" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public sealed class AppCommandFactoryTests
+    content.vb: >-
+      <TestClass>
+
+      Public NotInheritable Class AppCommandFactoryTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCommandFactoryTests.factory
+  commentId: F:AppTest.AppCommandFactoryTests.factory
+  id: factory
+  parent: AppTest.AppCommandFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: factory
+  nameWithType: AppCommandFactoryTests.factory
+  fullName: AppTest.AppCommandFactoryTests.factory
+  type: Field
+  source:
+    remote:
+      path: AppTest/AppCommandFactoryTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: factory
+    path: ../AppTest/AppCommandFactoryTests.cs
+    startLine: 12
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private AppCommandFactory factory
+    return:
+      type: BOOSEGraphicsEnvironment.AppCommandFactory
+    content.vb: Private factory As AppCommandFactory
+- uid: AppTest.AppCommandFactoryTests.Init
+  commentId: M:AppTest.AppCommandFactoryTests.Init
+  id: Init
+  parent: AppTest.AppCommandFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: AppCommandFactoryTests.Init()
+  fullName: AppTest.AppCommandFactoryTests.Init()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCommandFactoryTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Init
+    path: ../AppTest/AppCommandFactoryTests.cs
+    startLine: 17
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Initialises the <xref href="BOOSEGraphicsEnvironment.AppCommandFactory" data-throw-if-not-resolved="false"></xref> before each test.
+  example: []
+  syntax:
+    content: >-
+      [TestInitialize]
+
+      public void Init()
+    content.vb: >-
+      <TestInitialize>
+
+      Public Sub Init()
+  overload: AppTest.AppCommandFactoryTests.Init*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCommandFactoryTests.MakeCommand_KnownCommands_ReturnsExpectedType(System.String,System.Type)
+  commentId: M:AppTest.AppCommandFactoryTests.MakeCommand_KnownCommands_ReturnsExpectedType(System.String,System.Type)
+  id: MakeCommand_KnownCommands_ReturnsExpectedType(System.String,System.Type)
+  parent: AppTest.AppCommandFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: MakeCommand_KnownCommands_ReturnsExpectedType(string, Type)
+  nameWithType: AppCommandFactoryTests.MakeCommand_KnownCommands_ReturnsExpectedType(string, Type)
+  fullName: AppTest.AppCommandFactoryTests.MakeCommand_KnownCommands_ReturnsExpectedType(string, System.Type)
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCommandFactoryTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: MakeCommand_KnownCommands_ReturnsExpectedType
+    path: ../AppTest/AppCommandFactoryTests.cs
+    startLine: 30
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: >-
+    Verifies that known command names return instances of the expected command type.
+
+    Handles case-insensitive input and trims whitespace.
+  example: []
+  syntax:
+    content: >-
+      [DataTestMethod]
+
+      [DataRow(new object?[] { "moveto", typeof(MoveToCommand) })]
+
+      [DataRow(new object?[] { "drawto", typeof(DrawToCommand) })]
+
+      [DataRow(new object?[] { "circle", typeof(CircleCommand) })]
+
+      [DataRow(new object?[] { "tri", typeof(TriCommand) })]
+
+      [DataRow(new object?[] { "rect", typeof(RectCommand) })]
+
+      [DataRow(new object?[] { "pen", typeof(PenColourCommand) })]
+
+      [DataRow(new object?[] { "  MoveTo  ", typeof(MoveToCommand) })]
+
+      [DataRow(new object?[] { "CiRcLe", typeof(CircleCommand) })]
+
+      public void MakeCommand_KnownCommands_ReturnsExpectedType(string input, Type expectedType)
+    parameters:
+    - id: input
+      type: System.String
+      description: The command name to create.
+    - id: expectedType
+      type: System.Type
+      description: The expected command type.
+    content.vb: >-
+      <DataTestMethod>
+
+      <DataRow(New Object() { "moveto", GetType(MoveToCommand) })>
+
+      <DataRow(New Object() { "drawto", GetType(DrawToCommand) })>
+
+      <DataRow(New Object() { "circle", GetType(CircleCommand) })>
+
+      <DataRow(New Object() { "tri", GetType(TriCommand) })>
+
+      <DataRow(New Object() { "rect", GetType(RectCommand) })>
+
+      <DataRow(New Object() { "pen", GetType(PenColourCommand) })>
+
+      <DataRow(New Object() { "  MoveTo  ", GetType(MoveToCommand) })>
+
+      <DataRow(New Object() { "CiRcLe", GetType(CircleCommand) })>
+
+      Public Sub MakeCommand_KnownCommands_ReturnsExpectedType(input As String, expectedType As Type)
+  overload: AppTest.AppCommandFactoryTests.MakeCommand_KnownCommands_ReturnsExpectedType*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.DataTestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.DataTestMethodAttribute.#ctor
+    arguments: []
+  nameWithType.vb: AppCommandFactoryTests.MakeCommand_KnownCommands_ReturnsExpectedType(String, Type)
+  fullName.vb: AppTest.AppCommandFactoryTests.MakeCommand_KnownCommands_ReturnsExpectedType(String, System.Type)
+  name.vb: MakeCommand_KnownCommands_ReturnsExpectedType(String, Type)
+- uid: AppTest.AppCommandFactoryTests.MakeCommand_NullOrWhitespace_ThrowsFactoryException(System.String)
+  commentId: M:AppTest.AppCommandFactoryTests.MakeCommand_NullOrWhitespace_ThrowsFactoryException(System.String)
+  id: MakeCommand_NullOrWhitespace_ThrowsFactoryException(System.String)
+  parent: AppTest.AppCommandFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: MakeCommand_NullOrWhitespace_ThrowsFactoryException(string)
+  nameWithType: AppCommandFactoryTests.MakeCommand_NullOrWhitespace_ThrowsFactoryException(string)
+  fullName: AppTest.AppCommandFactoryTests.MakeCommand_NullOrWhitespace_ThrowsFactoryException(string)
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCommandFactoryTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: MakeCommand_NullOrWhitespace_ThrowsFactoryException
+    path: ../AppTest/AppCommandFactoryTests.cs
+    startLine: 51
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Verifies that null or whitespace input causes <xref href="BOOSE.FactoryException" data-throw-if-not-resolved="false"></xref> to be thrown.
+  example: []
+  syntax:
+    content: >-
+      [DataTestMethod]
+
+      [DataRow(null)]
+
+      [DataRow("")]
+
+      [DataRow("   ")]
+
+      public void MakeCommand_NullOrWhitespace_ThrowsFactoryException(string input)
+    parameters:
+    - id: input
+      type: System.String
+      description: The input string to test.
+    content.vb: >-
+      <DataTestMethod>
+
+      <DataRow(Nothing)>
+
+      <DataRow("")>
+
+      <DataRow("   ")>
+
+      Public Sub MakeCommand_NullOrWhitespace_ThrowsFactoryException(input As String)
+  overload: AppTest.AppCommandFactoryTests.MakeCommand_NullOrWhitespace_ThrowsFactoryException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.DataTestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.DataTestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute.#ctor(System.Object)
+    arguments:
+    - type: System.String
+      value: ''
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute.#ctor(System.Object)
+    arguments:
+    - type: System.String
+      value: "   "
+  nameWithType.vb: AppCommandFactoryTests.MakeCommand_NullOrWhitespace_ThrowsFactoryException(String)
+  fullName.vb: AppTest.AppCommandFactoryTests.MakeCommand_NullOrWhitespace_ThrowsFactoryException(String)
+  name.vb: MakeCommand_NullOrWhitespace_ThrowsFactoryException(String)
+- uid: AppTest.AppCommandFactoryTests.MakeCommand_UnknownCommand_ThrowsFactoryException
+  commentId: M:AppTest.AppCommandFactoryTests.MakeCommand_UnknownCommand_ThrowsFactoryException
+  id: MakeCommand_UnknownCommand_ThrowsFactoryException
+  parent: AppTest.AppCommandFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: MakeCommand_UnknownCommand_ThrowsFactoryException()
+  nameWithType: AppCommandFactoryTests.MakeCommand_UnknownCommand_ThrowsFactoryException()
+  fullName: AppTest.AppCommandFactoryTests.MakeCommand_UnknownCommand_ThrowsFactoryException()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCommandFactoryTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: MakeCommand_UnknownCommand_ThrowsFactoryException
+    path: ../AppTest/AppCommandFactoryTests.cs
+    startLine: 63
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Verifies that an unknown command string causes <xref href="BOOSE.FactoryException" data-throw-if-not-resolved="false"></xref> to be thrown.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void MakeCommand_UnknownCommand_ThrowsFactoryException()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub MakeCommand_UnknownCommand_ThrowsFactoryException()
+  overload: AppTest.AppCommandFactoryTests.MakeCommand_UnknownCommand_ThrowsFactoryException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: BOOSEGraphicsEnvironment.AppCommandFactory
+  commentId: T:BOOSEGraphicsEnvironment.AppCommandFactory
+  parent: BOOSEGraphicsEnvironment
+  href: BOOSEGraphicsEnvironment.AppCommandFactory.html
+  name: AppCommandFactory
+  nameWithType: AppCommandFactory
+  fullName: BOOSEGraphicsEnvironment.AppCommandFactory
+- uid: AppTest
+  commentId: N:AppTest
+  href: AppTest.html
+  name: AppTest
+  nameWithType: AppTest
+  fullName: AppTest
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: BOOSEGraphicsEnvironment
+  commentId: N:BOOSEGraphicsEnvironment
+  href: BOOSEGraphicsEnvironment.html
+  name: BOOSEGraphicsEnvironment
+  nameWithType: BOOSEGraphicsEnvironment
+  fullName: BOOSEGraphicsEnvironment
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AppTest.AppCommandFactoryTests.Init*
+  commentId: Overload:AppTest.AppCommandFactoryTests.Init
+  href: AppTest.AppCommandFactoryTests.html#AppTest_AppCommandFactoryTests_Init
+  name: Init
+  nameWithType: AppCommandFactoryTests.Init
+  fullName: AppTest.AppCommandFactoryTests.Init
+- uid: AppTest.AppCommandFactoryTests.MakeCommand_KnownCommands_ReturnsExpectedType*
+  commentId: Overload:AppTest.AppCommandFactoryTests.MakeCommand_KnownCommands_ReturnsExpectedType
+  href: AppTest.AppCommandFactoryTests.html#AppTest_AppCommandFactoryTests_MakeCommand_KnownCommands_ReturnsExpectedType_System_String_System_Type_
+  name: MakeCommand_KnownCommands_ReturnsExpectedType
+  nameWithType: AppCommandFactoryTests.MakeCommand_KnownCommands_ReturnsExpectedType
+  fullName: AppTest.AppCommandFactoryTests.MakeCommand_KnownCommands_ReturnsExpectedType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: BOOSE.FactoryException
+  commentId: T:BOOSE.FactoryException
+  isExternal: true
+  name: FactoryException
+  nameWithType: FactoryException
+  fullName: BOOSE.FactoryException
+- uid: AppTest.AppCommandFactoryTests.MakeCommand_NullOrWhitespace_ThrowsFactoryException*
+  commentId: Overload:AppTest.AppCommandFactoryTests.MakeCommand_NullOrWhitespace_ThrowsFactoryException
+  href: AppTest.AppCommandFactoryTests.html#AppTest_AppCommandFactoryTests_MakeCommand_NullOrWhitespace_ThrowsFactoryException_System_String_
+  name: MakeCommand_NullOrWhitespace_ThrowsFactoryException
+  nameWithType: AppCommandFactoryTests.MakeCommand_NullOrWhitespace_ThrowsFactoryException
+  fullName: AppTest.AppCommandFactoryTests.MakeCommand_NullOrWhitespace_ThrowsFactoryException
+- uid: AppTest.AppCommandFactoryTests.MakeCommand_UnknownCommand_ThrowsFactoryException*
+  commentId: Overload:AppTest.AppCommandFactoryTests.MakeCommand_UnknownCommand_ThrowsFactoryException
+  href: AppTest.AppCommandFactoryTests.html#AppTest_AppCommandFactoryTests_MakeCommand_UnknownCommand_ThrowsFactoryException
+  name: MakeCommand_UnknownCommand_ThrowsFactoryException
+  nameWithType: AppCommandFactoryTests.MakeCommand_UnknownCommand_ThrowsFactoryException
+  fullName: AppTest.AppCommandFactoryTests.MakeCommand_UnknownCommand_ThrowsFactoryException

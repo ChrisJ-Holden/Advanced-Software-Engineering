@@ -1,0 +1,627 @@
+### YamlMime:ManagedReference
+items:
+- uid: BOOSEGraphicsEnvironment.Shapes.Shape
+  commentId: T:BOOSEGraphicsEnvironment.Shapes.Shape
+  id: Shape
+  parent: BOOSEGraphicsEnvironment.Shapes
+  children:
+  - BOOSEGraphicsEnvironment.Shapes.Shape.#ctor(System.Int32,System.Int32)
+  - BOOSEGraphicsEnvironment.Shapes.Shape.Draw(System.Drawing.Graphics,System.Drawing.Pen,System.Int32,System.Int32)
+  - BOOSEGraphicsEnvironment.Shapes.Shape.Height
+  - BOOSEGraphicsEnvironment.Shapes.Shape.Width
+  langs:
+  - csharp
+  - vb
+  name: Shape
+  nameWithType: Shape
+  fullName: BOOSEGraphicsEnvironment.Shapes.Shape
+  type: Class
+  source:
+    remote:
+      path: BOOSEGraphicsEnvironment/Shapes/Shape.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Shape
+    path: ../BOOSEGraphicsEnvironment/Shapes/Shape.cs
+    startLine: 8
+  assemblies:
+  - BOOSEGraphicsEnvironment
+  namespace: BOOSEGraphicsEnvironment.Shapes
+  summary: >-
+    Represents the base class for drawable shapes in the BOOSE graphics environment.
+
+    Provides common properties for width and height and defines the abstract Draw method.
+  example: []
+  syntax:
+    content: 'public abstract class Shape : IDrawable'
+    content.vb: Public MustInherit Class Shape Implements IDrawable
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - BOOSEGraphicsEnvironment.Shapes.EllipseShape
+  - BOOSEGraphicsEnvironment.Shapes.PolygonShape
+  - BOOSEGraphicsEnvironment.Shapes.RectangleShape
+  implements:
+  - BOOSEGraphicsEnvironment.IDrawable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: BOOSEGraphicsEnvironment.Shapes.Shape.#ctor(System.Int32,System.Int32)
+  commentId: M:BOOSEGraphicsEnvironment.Shapes.Shape.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: BOOSEGraphicsEnvironment.Shapes.Shape
+  langs:
+  - csharp
+  - vb
+  name: Shape(int, int)
+  nameWithType: Shape.Shape(int, int)
+  fullName: BOOSEGraphicsEnvironment.Shapes.Shape.Shape(int, int)
+  type: Constructor
+  source:
+    remote:
+      path: BOOSEGraphicsEnvironment/Shapes/Shape.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: .ctor
+    path: ../BOOSEGraphicsEnvironment/Shapes/Shape.cs
+    startLine: 16
+  assemblies:
+  - BOOSEGraphicsEnvironment
+  namespace: BOOSEGraphicsEnvironment.Shapes
+  summary: Initialises a new instance of the <xref href="BOOSEGraphicsEnvironment.Shapes.Shape" data-throw-if-not-resolved="false"></xref> class with specified dimensions.
+  example: []
+  syntax:
+    content: protected Shape(int width, int height)
+    parameters:
+    - id: width
+      type: System.Int32
+      description: The width of the shape.
+    - id: height
+      type: System.Int32
+      description: The height of the shape.
+    content.vb: Protected Sub New(width As Integer, height As Integer)
+  overload: BOOSEGraphicsEnvironment.Shapes.Shape.#ctor*
+  nameWithType.vb: Shape.New(Integer, Integer)
+  fullName.vb: BOOSEGraphicsEnvironment.Shapes.Shape.New(Integer, Integer)
+  name.vb: New(Integer, Integer)
+- uid: BOOSEGraphicsEnvironment.Shapes.Shape.Width
+  commentId: P:BOOSEGraphicsEnvironment.Shapes.Shape.Width
+  id: Width
+  parent: BOOSEGraphicsEnvironment.Shapes.Shape
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: Shape.Width
+  fullName: BOOSEGraphicsEnvironment.Shapes.Shape.Width
+  type: Property
+  source:
+    remote:
+      path: BOOSEGraphicsEnvironment/Shapes/Shape.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Width
+    path: ../BOOSEGraphicsEnvironment/Shapes/Shape.cs
+    startLine: 26
+  assemblies:
+  - BOOSEGraphicsEnvironment
+  namespace: BOOSEGraphicsEnvironment.Shapes
+  summary: Gets the width of the shape.
+  example: []
+  syntax:
+    content: public int Width { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Width As Integer
+  overload: BOOSEGraphicsEnvironment.Shapes.Shape.Width*
+- uid: BOOSEGraphicsEnvironment.Shapes.Shape.Height
+  commentId: P:BOOSEGraphicsEnvironment.Shapes.Shape.Height
+  id: Height
+  parent: BOOSEGraphicsEnvironment.Shapes.Shape
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: Shape.Height
+  fullName: BOOSEGraphicsEnvironment.Shapes.Shape.Height
+  type: Property
+  source:
+    remote:
+      path: BOOSEGraphicsEnvironment/Shapes/Shape.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Height
+    path: ../BOOSEGraphicsEnvironment/Shapes/Shape.cs
+    startLine: 31
+  assemblies:
+  - BOOSEGraphicsEnvironment
+  namespace: BOOSEGraphicsEnvironment.Shapes
+  summary: Gets the height of the shape.
+  example: []
+  syntax:
+    content: public int Height { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Height As Integer
+  overload: BOOSEGraphicsEnvironment.Shapes.Shape.Height*
+- uid: BOOSEGraphicsEnvironment.Shapes.Shape.Draw(System.Drawing.Graphics,System.Drawing.Pen,System.Int32,System.Int32)
+  commentId: M:BOOSEGraphicsEnvironment.Shapes.Shape.Draw(System.Drawing.Graphics,System.Drawing.Pen,System.Int32,System.Int32)
+  id: Draw(System.Drawing.Graphics,System.Drawing.Pen,System.Int32,System.Int32)
+  parent: BOOSEGraphicsEnvironment.Shapes.Shape
+  langs:
+  - csharp
+  - vb
+  name: Draw(Graphics, Pen, int, int)
+  nameWithType: Shape.Draw(Graphics, Pen, int, int)
+  fullName: BOOSEGraphicsEnvironment.Shapes.Shape.Draw(System.Drawing.Graphics, System.Drawing.Pen, int, int)
+  type: Method
+  source:
+    remote:
+      path: BOOSEGraphicsEnvironment/Shapes/Shape.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Draw
+    path: ../BOOSEGraphicsEnvironment/Shapes/Shape.cs
+    startLine: 41
+  assemblies:
+  - BOOSEGraphicsEnvironment
+  namespace: BOOSEGraphicsEnvironment.Shapes
+  summary: Draws the shape using the specified graphics and pen objects at the given position.
+  example: []
+  syntax:
+    content: public abstract void Draw(Graphics g, Pen pen, int xPos, int yPos)
+    parameters:
+    - id: g
+      type: System.Drawing.Graphics
+      description: The graphics object to draw on.
+    - id: pen
+      type: System.Drawing.Pen
+      description: The pen object used for drawing.
+    - id: xPos
+      type: System.Int32
+      description: The X-coordinate of the shape's position.
+    - id: yPos
+      type: System.Int32
+      description: The Y-coordinate of the shape's position.
+    content.vb: Public MustOverride Sub Draw(g As Graphics, pen As Pen, xPos As Integer, yPos As Integer)
+  overload: BOOSEGraphicsEnvironment.Shapes.Shape.Draw*
+  implements:
+  - BOOSEGraphicsEnvironment.IDrawable.Draw(System.Drawing.Graphics,System.Drawing.Pen,System.Int32,System.Int32)
+  nameWithType.vb: Shape.Draw(Graphics, Pen, Integer, Integer)
+  fullName.vb: BOOSEGraphicsEnvironment.Shapes.Shape.Draw(System.Drawing.Graphics, System.Drawing.Pen, Integer, Integer)
+  name.vb: Draw(Graphics, Pen, Integer, Integer)
+references:
+- uid: BOOSEGraphicsEnvironment.Shapes
+  commentId: N:BOOSEGraphicsEnvironment.Shapes
+  href: BOOSEGraphicsEnvironment.html
+  name: BOOSEGraphicsEnvironment.Shapes
+  nameWithType: BOOSEGraphicsEnvironment.Shapes
+  fullName: BOOSEGraphicsEnvironment.Shapes
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment
+    name: BOOSEGraphicsEnvironment
+    href: BOOSEGraphicsEnvironment.html
+  - name: .
+  - uid: BOOSEGraphicsEnvironment.Shapes
+    name: Shapes
+    href: BOOSEGraphicsEnvironment.Shapes.html
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment
+    name: BOOSEGraphicsEnvironment
+    href: BOOSEGraphicsEnvironment.html
+  - name: .
+  - uid: BOOSEGraphicsEnvironment.Shapes
+    name: Shapes
+    href: BOOSEGraphicsEnvironment.Shapes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: BOOSEGraphicsEnvironment.IDrawable
+  commentId: T:BOOSEGraphicsEnvironment.IDrawable
+  parent: BOOSEGraphicsEnvironment
+  href: BOOSEGraphicsEnvironment.IDrawable.html
+  name: IDrawable
+  nameWithType: IDrawable
+  fullName: BOOSEGraphicsEnvironment.IDrawable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BOOSEGraphicsEnvironment
+  commentId: N:BOOSEGraphicsEnvironment
+  href: BOOSEGraphicsEnvironment.html
+  name: BOOSEGraphicsEnvironment
+  nameWithType: BOOSEGraphicsEnvironment
+  fullName: BOOSEGraphicsEnvironment
+- uid: BOOSEGraphicsEnvironment.Shapes.Shape
+  commentId: T:BOOSEGraphicsEnvironment.Shapes.Shape
+  parent: BOOSEGraphicsEnvironment.Shapes
+  href: BOOSEGraphicsEnvironment.Shapes.Shape.html
+  name: Shape
+  nameWithType: Shape
+  fullName: BOOSEGraphicsEnvironment.Shapes.Shape
+- uid: BOOSEGraphicsEnvironment.Shapes.Shape.#ctor*
+  commentId: Overload:BOOSEGraphicsEnvironment.Shapes.Shape.#ctor
+  href: BOOSEGraphicsEnvironment.Shapes.Shape.html#BOOSEGraphicsEnvironment_Shapes_Shape__ctor_System_Int32_System_Int32_
+  name: Shape
+  nameWithType: Shape.Shape
+  fullName: BOOSEGraphicsEnvironment.Shapes.Shape.Shape
+  nameWithType.vb: Shape.New
+  fullName.vb: BOOSEGraphicsEnvironment.Shapes.Shape.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: BOOSEGraphicsEnvironment.Shapes.Shape.Width*
+  commentId: Overload:BOOSEGraphicsEnvironment.Shapes.Shape.Width
+  href: BOOSEGraphicsEnvironment.Shapes.Shape.html#BOOSEGraphicsEnvironment_Shapes_Shape_Width
+  name: Width
+  nameWithType: Shape.Width
+  fullName: BOOSEGraphicsEnvironment.Shapes.Shape.Width
+- uid: BOOSEGraphicsEnvironment.Shapes.Shape.Height*
+  commentId: Overload:BOOSEGraphicsEnvironment.Shapes.Shape.Height
+  href: BOOSEGraphicsEnvironment.Shapes.Shape.html#BOOSEGraphicsEnvironment_Shapes_Shape_Height
+  name: Height
+  nameWithType: Shape.Height
+  fullName: BOOSEGraphicsEnvironment.Shapes.Shape.Height
+- uid: BOOSEGraphicsEnvironment.Shapes.Shape.Draw*
+  commentId: Overload:BOOSEGraphicsEnvironment.Shapes.Shape.Draw
+  href: BOOSEGraphicsEnvironment.Shapes.Shape.html#BOOSEGraphicsEnvironment_Shapes_Shape_Draw_System_Drawing_Graphics_System_Drawing_Pen_System_Int32_System_Int32_
+  name: Draw
+  nameWithType: Shape.Draw
+  fullName: BOOSEGraphicsEnvironment.Shapes.Shape.Draw
+- uid: BOOSEGraphicsEnvironment.IDrawable.Draw(System.Drawing.Graphics,System.Drawing.Pen,System.Int32,System.Int32)
+  commentId: M:BOOSEGraphicsEnvironment.IDrawable.Draw(System.Drawing.Graphics,System.Drawing.Pen,System.Int32,System.Int32)
+  parent: BOOSEGraphicsEnvironment.IDrawable
+  isExternal: true
+  href: BOOSEGraphicsEnvironment.IDrawable.html#BOOSEGraphicsEnvironment_IDrawable_Draw_System_Drawing_Graphics_System_Drawing_Pen_System_Int32_System_Int32_
+  name: Draw(Graphics, Pen, int, int)
+  nameWithType: IDrawable.Draw(Graphics, Pen, int, int)
+  fullName: BOOSEGraphicsEnvironment.IDrawable.Draw(System.Drawing.Graphics, System.Drawing.Pen, int, int)
+  nameWithType.vb: IDrawable.Draw(Graphics, Pen, Integer, Integer)
+  fullName.vb: BOOSEGraphicsEnvironment.IDrawable.Draw(System.Drawing.Graphics, System.Drawing.Pen, Integer, Integer)
+  name.vb: Draw(Graphics, Pen, Integer, Integer)
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.IDrawable.Draw(System.Drawing.Graphics,System.Drawing.Pen,System.Int32,System.Int32)
+    name: Draw
+    href: BOOSEGraphicsEnvironment.IDrawable.html#BOOSEGraphicsEnvironment_IDrawable_Draw_System_Drawing_Graphics_System_Drawing_Pen_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Drawing.Graphics
+    name: Graphics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.graphics
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Pen
+    name: Pen
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pen
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.IDrawable.Draw(System.Drawing.Graphics,System.Drawing.Pen,System.Int32,System.Int32)
+    name: Draw
+    href: BOOSEGraphicsEnvironment.IDrawable.html#BOOSEGraphicsEnvironment_IDrawable_Draw_System_Drawing_Graphics_System_Drawing_Pen_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Drawing.Graphics
+    name: Graphics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.graphics
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Pen
+    name: Pen
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pen
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Drawing.Graphics
+  commentId: T:System.Drawing.Graphics
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.graphics
+  name: Graphics
+  nameWithType: Graphics
+  fullName: System.Drawing.Graphics
+- uid: System.Drawing.Pen
+  commentId: T:System.Drawing.Pen
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.pen
+  name: Pen
+  nameWithType: Pen
+  fullName: System.Drawing.Pen
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing

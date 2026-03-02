@@ -1,0 +1,895 @@
+### YamlMime:ManagedReference
+items:
+- uid: AppTest.BitmapManagerTests
+  commentId: T:AppTest.BitmapManagerTests
+  id: BitmapManagerTests
+  parent: AppTest
+  children:
+  - AppTest.BitmapManagerTests.Constructor_CreatesBitmapAndGraphics_WithRequestedSize
+  - AppTest.BitmapManagerTests.CopyBitmap_WithNull_DoesNotThrow
+  - AppTest.BitmapManagerTests.CopyBitmap_WithSource_DoesNotThrow
+  - AppTest.BitmapManagerTests.CreateBitmap_ReplacesBitmapAndGraphics_WithNewSize
+  - AppTest.BitmapManagerTests.Dispose_IsIdempotent_DoesNotThrowWhenCalledMultipleTimes
+  - AppTest.BitmapManagerTests.InitialHeight
+  - AppTest.BitmapManagerTests.InitialWidth
+  - AppTest.BitmapManagerTests.NewHeight
+  - AppTest.BitmapManagerTests.NewWidth
+  - AppTest.BitmapManagerTests.Resize_ChangesBitmapDimensions_AndCreatesGraphics
+  - AppTest.BitmapManagerTests.TestColor1
+  - AppTest.BitmapManagerTests.TestColor2
+  langs:
+  - csharp
+  - vb
+  name: BitmapManagerTests
+  nameWithType: BitmapManagerTests
+  fullName: AppTest.BitmapManagerTests
+  type: Class
+  source:
+    remote:
+      path: AppTest/BitmapManagerTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: BitmapManagerTests
+    path: ../AppTest/BitmapManagerTests.cs
+    startLine: 8
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Contains unit tests for the <xref href="BOOSEGraphicsEnvironment.BitmapManager" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public sealed class BitmapManagerTests
+    content.vb: >-
+      <TestClass>
+
+      Public NotInheritable Class BitmapManagerTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: AppTest.BitmapManagerTests.InitialWidth
+  commentId: F:AppTest.BitmapManagerTests.InitialWidth
+  id: InitialWidth
+  parent: AppTest.BitmapManagerTests
+  langs:
+  - csharp
+  - vb
+  name: InitialWidth
+  nameWithType: BitmapManagerTests.InitialWidth
+  fullName: AppTest.BitmapManagerTests.InitialWidth
+  type: Field
+  source:
+    remote:
+      path: AppTest/BitmapManagerTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: InitialWidth
+    path: ../AppTest/BitmapManagerTests.cs
+    startLine: 11
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int InitialWidth = 16
+    return:
+      type: System.Int32
+    content.vb: Private Const InitialWidth As Integer = 16
+- uid: AppTest.BitmapManagerTests.InitialHeight
+  commentId: F:AppTest.BitmapManagerTests.InitialHeight
+  id: InitialHeight
+  parent: AppTest.BitmapManagerTests
+  langs:
+  - csharp
+  - vb
+  name: InitialHeight
+  nameWithType: BitmapManagerTests.InitialHeight
+  fullName: AppTest.BitmapManagerTests.InitialHeight
+  type: Field
+  source:
+    remote:
+      path: AppTest/BitmapManagerTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: InitialHeight
+    path: ../AppTest/BitmapManagerTests.cs
+    startLine: 12
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int InitialHeight = 16
+    return:
+      type: System.Int32
+    content.vb: Private Const InitialHeight As Integer = 16
+- uid: AppTest.BitmapManagerTests.NewWidth
+  commentId: F:AppTest.BitmapManagerTests.NewWidth
+  id: NewWidth
+  parent: AppTest.BitmapManagerTests
+  langs:
+  - csharp
+  - vb
+  name: NewWidth
+  nameWithType: BitmapManagerTests.NewWidth
+  fullName: AppTest.BitmapManagerTests.NewWidth
+  type: Field
+  source:
+    remote:
+      path: AppTest/BitmapManagerTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: NewWidth
+    path: ../AppTest/BitmapManagerTests.cs
+    startLine: 13
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int NewWidth = 32
+    return:
+      type: System.Int32
+    content.vb: Private Const NewWidth As Integer = 32
+- uid: AppTest.BitmapManagerTests.NewHeight
+  commentId: F:AppTest.BitmapManagerTests.NewHeight
+  id: NewHeight
+  parent: AppTest.BitmapManagerTests
+  langs:
+  - csharp
+  - vb
+  name: NewHeight
+  nameWithType: BitmapManagerTests.NewHeight
+  fullName: AppTest.BitmapManagerTests.NewHeight
+  type: Field
+  source:
+    remote:
+      path: AppTest/BitmapManagerTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: NewHeight
+    path: ../AppTest/BitmapManagerTests.cs
+    startLine: 14
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int NewHeight = 8
+    return:
+      type: System.Int32
+    content.vb: Private Const NewHeight As Integer = 8
+- uid: AppTest.BitmapManagerTests.TestColor1
+  commentId: F:AppTest.BitmapManagerTests.TestColor1
+  id: TestColor1
+  parent: AppTest.BitmapManagerTests
+  langs:
+  - csharp
+  - vb
+  name: TestColor1
+  nameWithType: BitmapManagerTests.TestColor1
+  fullName: AppTest.BitmapManagerTests.TestColor1
+  type: Field
+  source:
+    remote:
+      path: AppTest/BitmapManagerTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: TestColor1
+    path: ../AppTest/BitmapManagerTests.cs
+    startLine: 16
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private static readonly Color TestColor1
+    return:
+      type: System.Drawing.Color
+    content.vb: Private Shared ReadOnly TestColor1 As Color
+- uid: AppTest.BitmapManagerTests.TestColor2
+  commentId: F:AppTest.BitmapManagerTests.TestColor2
+  id: TestColor2
+  parent: AppTest.BitmapManagerTests
+  langs:
+  - csharp
+  - vb
+  name: TestColor2
+  nameWithType: BitmapManagerTests.TestColor2
+  fullName: AppTest.BitmapManagerTests.TestColor2
+  type: Field
+  source:
+    remote:
+      path: AppTest/BitmapManagerTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: TestColor2
+    path: ../AppTest/BitmapManagerTests.cs
+    startLine: 17
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private static readonly Color TestColor2
+    return:
+      type: System.Drawing.Color
+    content.vb: Private Shared ReadOnly TestColor2 As Color
+- uid: AppTest.BitmapManagerTests.Constructor_CreatesBitmapAndGraphics_WithRequestedSize
+  commentId: M:AppTest.BitmapManagerTests.Constructor_CreatesBitmapAndGraphics_WithRequestedSize
+  id: Constructor_CreatesBitmapAndGraphics_WithRequestedSize
+  parent: AppTest.BitmapManagerTests
+  langs:
+  - csharp
+  - vb
+  name: Constructor_CreatesBitmapAndGraphics_WithRequestedSize()
+  nameWithType: BitmapManagerTests.Constructor_CreatesBitmapAndGraphics_WithRequestedSize()
+  fullName: AppTest.BitmapManagerTests.Constructor_CreatesBitmapAndGraphics_WithRequestedSize()
+  type: Method
+  source:
+    remote:
+      path: AppTest/BitmapManagerTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Constructor_CreatesBitmapAndGraphics_WithRequestedSize
+    path: ../AppTest/BitmapManagerTests.cs
+    startLine: 22
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Verifies that the constructor creates a bitmap and graphics object with the requested size.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Constructor_CreatesBitmapAndGraphics_WithRequestedSize()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Constructor_CreatesBitmapAndGraphics_WithRequestedSize()
+  overload: AppTest.BitmapManagerTests.Constructor_CreatesBitmapAndGraphics_WithRequestedSize*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.BitmapManagerTests.CreateBitmap_ReplacesBitmapAndGraphics_WithNewSize
+  commentId: M:AppTest.BitmapManagerTests.CreateBitmap_ReplacesBitmapAndGraphics_WithNewSize
+  id: CreateBitmap_ReplacesBitmapAndGraphics_WithNewSize
+  parent: AppTest.BitmapManagerTests
+  langs:
+  - csharp
+  - vb
+  name: CreateBitmap_ReplacesBitmapAndGraphics_WithNewSize()
+  nameWithType: BitmapManagerTests.CreateBitmap_ReplacesBitmapAndGraphics_WithNewSize()
+  fullName: AppTest.BitmapManagerTests.CreateBitmap_ReplacesBitmapAndGraphics_WithNewSize()
+  type: Method
+  source:
+    remote:
+      path: AppTest/BitmapManagerTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: CreateBitmap_ReplacesBitmapAndGraphics_WithNewSize
+    path: ../AppTest/BitmapManagerTests.cs
+    startLine: 38
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Verifies that <xref href="BOOSEGraphicsEnvironment.BitmapManager.CreateBitmap(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> replaces the existing bitmap and graphics with new dimensions.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CreateBitmap_ReplacesBitmapAndGraphics_WithNewSize()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CreateBitmap_ReplacesBitmapAndGraphics_WithNewSize()
+  overload: AppTest.BitmapManagerTests.CreateBitmap_ReplacesBitmapAndGraphics_WithNewSize*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.BitmapManagerTests.CopyBitmap_WithNull_DoesNotThrow
+  commentId: M:AppTest.BitmapManagerTests.CopyBitmap_WithNull_DoesNotThrow
+  id: CopyBitmap_WithNull_DoesNotThrow
+  parent: AppTest.BitmapManagerTests
+  langs:
+  - csharp
+  - vb
+  name: CopyBitmap_WithNull_DoesNotThrow()
+  nameWithType: BitmapManagerTests.CopyBitmap_WithNull_DoesNotThrow()
+  fullName: AppTest.BitmapManagerTests.CopyBitmap_WithNull_DoesNotThrow()
+  type: Method
+  source:
+    remote:
+      path: AppTest/BitmapManagerTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: CopyBitmap_WithNull_DoesNotThrow
+    path: ../AppTest/BitmapManagerTests.cs
+    startLine: 57
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Ensures that calling <xref href="BOOSEGraphicsEnvironment.BitmapManager.CopyBitmap(System.Drawing.Bitmap)" data-throw-if-not-resolved="false"></xref> with null does not throw and preserves bitmap and graphics.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CopyBitmap_WithNull_DoesNotThrow()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CopyBitmap_WithNull_DoesNotThrow()
+  overload: AppTest.BitmapManagerTests.CopyBitmap_WithNull_DoesNotThrow*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.BitmapManagerTests.CopyBitmap_WithSource_DoesNotThrow
+  commentId: M:AppTest.BitmapManagerTests.CopyBitmap_WithSource_DoesNotThrow
+  id: CopyBitmap_WithSource_DoesNotThrow
+  parent: AppTest.BitmapManagerTests
+  langs:
+  - csharp
+  - vb
+  name: CopyBitmap_WithSource_DoesNotThrow()
+  nameWithType: BitmapManagerTests.CopyBitmap_WithSource_DoesNotThrow()
+  fullName: AppTest.BitmapManagerTests.CopyBitmap_WithSource_DoesNotThrow()
+  type: Method
+  source:
+    remote:
+      path: AppTest/BitmapManagerTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: CopyBitmap_WithSource_DoesNotThrow
+    path: ../AppTest/BitmapManagerTests.cs
+    startLine: 73
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Verifies that copying a source bitmap with <xref href="BOOSEGraphicsEnvironment.BitmapManager.CopyBitmap(System.Drawing.Bitmap)" data-throw-if-not-resolved="false"></xref> does not throw and preserves bitmap and graphics.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CopyBitmap_WithSource_DoesNotThrow()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CopyBitmap_WithSource_DoesNotThrow()
+  overload: AppTest.BitmapManagerTests.CopyBitmap_WithSource_DoesNotThrow*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.BitmapManagerTests.Resize_ChangesBitmapDimensions_AndCreatesGraphics
+  commentId: M:AppTest.BitmapManagerTests.Resize_ChangesBitmapDimensions_AndCreatesGraphics
+  id: Resize_ChangesBitmapDimensions_AndCreatesGraphics
+  parent: AppTest.BitmapManagerTests
+  langs:
+  - csharp
+  - vb
+  name: Resize_ChangesBitmapDimensions_AndCreatesGraphics()
+  nameWithType: BitmapManagerTests.Resize_ChangesBitmapDimensions_AndCreatesGraphics()
+  fullName: AppTest.BitmapManagerTests.Resize_ChangesBitmapDimensions_AndCreatesGraphics()
+  type: Method
+  source:
+    remote:
+      path: AppTest/BitmapManagerTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Resize_ChangesBitmapDimensions_AndCreatesGraphics
+    path: ../AppTest/BitmapManagerTests.cs
+    startLine: 91
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Verifies that <xref href="BOOSEGraphicsEnvironment.BitmapManager.Resize(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> correctly updates the bitmap dimensions and recreates the graphics object.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Resize_ChangesBitmapDimensions_AndCreatesGraphics()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Resize_ChangesBitmapDimensions_AndCreatesGraphics()
+  overload: AppTest.BitmapManagerTests.Resize_ChangesBitmapDimensions_AndCreatesGraphics*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.BitmapManagerTests.Dispose_IsIdempotent_DoesNotThrowWhenCalledMultipleTimes
+  commentId: M:AppTest.BitmapManagerTests.Dispose_IsIdempotent_DoesNotThrowWhenCalledMultipleTimes
+  id: Dispose_IsIdempotent_DoesNotThrowWhenCalledMultipleTimes
+  parent: AppTest.BitmapManagerTests
+  langs:
+  - csharp
+  - vb
+  name: Dispose_IsIdempotent_DoesNotThrowWhenCalledMultipleTimes()
+  nameWithType: BitmapManagerTests.Dispose_IsIdempotent_DoesNotThrowWhenCalledMultipleTimes()
+  fullName: AppTest.BitmapManagerTests.Dispose_IsIdempotent_DoesNotThrowWhenCalledMultipleTimes()
+  type: Method
+  source:
+    remote:
+      path: AppTest/BitmapManagerTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Dispose_IsIdempotent_DoesNotThrowWhenCalledMultipleTimes
+    path: ../AppTest/BitmapManagerTests.cs
+    startLine: 109
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Ensures that <xref href="BOOSEGraphicsEnvironment.BitmapManager.Dispose" data-throw-if-not-resolved="false"></xref> can be called multiple times safely (idempotent).
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Dispose_IsIdempotent_DoesNotThrowWhenCalledMultipleTimes()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Dispose_IsIdempotent_DoesNotThrowWhenCalledMultipleTimes()
+  overload: AppTest.BitmapManagerTests.Dispose_IsIdempotent_DoesNotThrowWhenCalledMultipleTimes*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: BOOSEGraphicsEnvironment.BitmapManager
+  commentId: T:BOOSEGraphicsEnvironment.BitmapManager
+  parent: BOOSEGraphicsEnvironment
+  href: BOOSEGraphicsEnvironment.BitmapManager.html
+  name: BitmapManager
+  nameWithType: BitmapManager
+  fullName: BOOSEGraphicsEnvironment.BitmapManager
+- uid: AppTest
+  commentId: N:AppTest
+  href: AppTest.html
+  name: AppTest
+  nameWithType: AppTest
+  fullName: AppTest
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: BOOSEGraphicsEnvironment
+  commentId: N:BOOSEGraphicsEnvironment
+  href: BOOSEGraphicsEnvironment.html
+  name: BOOSEGraphicsEnvironment
+  nameWithType: BOOSEGraphicsEnvironment
+  fullName: BOOSEGraphicsEnvironment
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: AppTest.BitmapManagerTests.Constructor_CreatesBitmapAndGraphics_WithRequestedSize*
+  commentId: Overload:AppTest.BitmapManagerTests.Constructor_CreatesBitmapAndGraphics_WithRequestedSize
+  href: AppTest.BitmapManagerTests.html#AppTest_BitmapManagerTests_Constructor_CreatesBitmapAndGraphics_WithRequestedSize
+  name: Constructor_CreatesBitmapAndGraphics_WithRequestedSize
+  nameWithType: BitmapManagerTests.Constructor_CreatesBitmapAndGraphics_WithRequestedSize
+  fullName: AppTest.BitmapManagerTests.Constructor_CreatesBitmapAndGraphics_WithRequestedSize
+- uid: BOOSEGraphicsEnvironment.BitmapManager.CreateBitmap(System.Int32,System.Int32)
+  commentId: M:BOOSEGraphicsEnvironment.BitmapManager.CreateBitmap(System.Int32,System.Int32)
+  isExternal: true
+  href: BOOSEGraphicsEnvironment.BitmapManager.html#BOOSEGraphicsEnvironment_BitmapManager_CreateBitmap_System_Int32_System_Int32_
+  name: CreateBitmap(int, int)
+  nameWithType: BitmapManager.CreateBitmap(int, int)
+  fullName: BOOSEGraphicsEnvironment.BitmapManager.CreateBitmap(int, int)
+  nameWithType.vb: BitmapManager.CreateBitmap(Integer, Integer)
+  fullName.vb: BOOSEGraphicsEnvironment.BitmapManager.CreateBitmap(Integer, Integer)
+  name.vb: CreateBitmap(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.BitmapManager.CreateBitmap(System.Int32,System.Int32)
+    name: CreateBitmap
+    href: BOOSEGraphicsEnvironment.BitmapManager.html#BOOSEGraphicsEnvironment_BitmapManager_CreateBitmap_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.BitmapManager.CreateBitmap(System.Int32,System.Int32)
+    name: CreateBitmap
+    href: BOOSEGraphicsEnvironment.BitmapManager.html#BOOSEGraphicsEnvironment_BitmapManager_CreateBitmap_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: AppTest.BitmapManagerTests.CreateBitmap_ReplacesBitmapAndGraphics_WithNewSize*
+  commentId: Overload:AppTest.BitmapManagerTests.CreateBitmap_ReplacesBitmapAndGraphics_WithNewSize
+  href: AppTest.BitmapManagerTests.html#AppTest_BitmapManagerTests_CreateBitmap_ReplacesBitmapAndGraphics_WithNewSize
+  name: CreateBitmap_ReplacesBitmapAndGraphics_WithNewSize
+  nameWithType: BitmapManagerTests.CreateBitmap_ReplacesBitmapAndGraphics_WithNewSize
+  fullName: AppTest.BitmapManagerTests.CreateBitmap_ReplacesBitmapAndGraphics_WithNewSize
+- uid: BOOSEGraphicsEnvironment.BitmapManager.CopyBitmap(System.Drawing.Bitmap)
+  commentId: M:BOOSEGraphicsEnvironment.BitmapManager.CopyBitmap(System.Drawing.Bitmap)
+  isExternal: true
+  href: BOOSEGraphicsEnvironment.BitmapManager.html#BOOSEGraphicsEnvironment_BitmapManager_CopyBitmap_System_Drawing_Bitmap_
+  name: CopyBitmap(Bitmap)
+  nameWithType: BitmapManager.CopyBitmap(Bitmap)
+  fullName: BOOSEGraphicsEnvironment.BitmapManager.CopyBitmap(System.Drawing.Bitmap)
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.BitmapManager.CopyBitmap(System.Drawing.Bitmap)
+    name: CopyBitmap
+    href: BOOSEGraphicsEnvironment.BitmapManager.html#BOOSEGraphicsEnvironment_BitmapManager_CopyBitmap_System_Drawing_Bitmap_
+  - name: (
+  - uid: System.Drawing.Bitmap
+    name: Bitmap
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.bitmap
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.BitmapManager.CopyBitmap(System.Drawing.Bitmap)
+    name: CopyBitmap
+    href: BOOSEGraphicsEnvironment.BitmapManager.html#BOOSEGraphicsEnvironment_BitmapManager_CopyBitmap_System_Drawing_Bitmap_
+  - name: (
+  - uid: System.Drawing.Bitmap
+    name: Bitmap
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.bitmap
+  - name: )
+- uid: AppTest.BitmapManagerTests.CopyBitmap_WithNull_DoesNotThrow*
+  commentId: Overload:AppTest.BitmapManagerTests.CopyBitmap_WithNull_DoesNotThrow
+  href: AppTest.BitmapManagerTests.html#AppTest_BitmapManagerTests_CopyBitmap_WithNull_DoesNotThrow
+  name: CopyBitmap_WithNull_DoesNotThrow
+  nameWithType: BitmapManagerTests.CopyBitmap_WithNull_DoesNotThrow
+  fullName: AppTest.BitmapManagerTests.CopyBitmap_WithNull_DoesNotThrow
+- uid: AppTest.BitmapManagerTests.CopyBitmap_WithSource_DoesNotThrow*
+  commentId: Overload:AppTest.BitmapManagerTests.CopyBitmap_WithSource_DoesNotThrow
+  href: AppTest.BitmapManagerTests.html#AppTest_BitmapManagerTests_CopyBitmap_WithSource_DoesNotThrow
+  name: CopyBitmap_WithSource_DoesNotThrow
+  nameWithType: BitmapManagerTests.CopyBitmap_WithSource_DoesNotThrow
+  fullName: AppTest.BitmapManagerTests.CopyBitmap_WithSource_DoesNotThrow
+- uid: BOOSEGraphicsEnvironment.BitmapManager.Resize(System.Int32,System.Int32)
+  commentId: M:BOOSEGraphicsEnvironment.BitmapManager.Resize(System.Int32,System.Int32)
+  isExternal: true
+  href: BOOSEGraphicsEnvironment.BitmapManager.html#BOOSEGraphicsEnvironment_BitmapManager_Resize_System_Int32_System_Int32_
+  name: Resize(int, int)
+  nameWithType: BitmapManager.Resize(int, int)
+  fullName: BOOSEGraphicsEnvironment.BitmapManager.Resize(int, int)
+  nameWithType.vb: BitmapManager.Resize(Integer, Integer)
+  fullName.vb: BOOSEGraphicsEnvironment.BitmapManager.Resize(Integer, Integer)
+  name.vb: Resize(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.BitmapManager.Resize(System.Int32,System.Int32)
+    name: Resize
+    href: BOOSEGraphicsEnvironment.BitmapManager.html#BOOSEGraphicsEnvironment_BitmapManager_Resize_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.BitmapManager.Resize(System.Int32,System.Int32)
+    name: Resize
+    href: BOOSEGraphicsEnvironment.BitmapManager.html#BOOSEGraphicsEnvironment_BitmapManager_Resize_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: AppTest.BitmapManagerTests.Resize_ChangesBitmapDimensions_AndCreatesGraphics*
+  commentId: Overload:AppTest.BitmapManagerTests.Resize_ChangesBitmapDimensions_AndCreatesGraphics
+  href: AppTest.BitmapManagerTests.html#AppTest_BitmapManagerTests_Resize_ChangesBitmapDimensions_AndCreatesGraphics
+  name: Resize_ChangesBitmapDimensions_AndCreatesGraphics
+  nameWithType: BitmapManagerTests.Resize_ChangesBitmapDimensions_AndCreatesGraphics
+  fullName: AppTest.BitmapManagerTests.Resize_ChangesBitmapDimensions_AndCreatesGraphics
+- uid: BOOSEGraphicsEnvironment.BitmapManager.Dispose
+  commentId: M:BOOSEGraphicsEnvironment.BitmapManager.Dispose
+  href: BOOSEGraphicsEnvironment.BitmapManager.html#BOOSEGraphicsEnvironment_BitmapManager_Dispose
+  name: Dispose()
+  nameWithType: BitmapManager.Dispose()
+  fullName: BOOSEGraphicsEnvironment.BitmapManager.Dispose()
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.BitmapManager.Dispose
+    name: Dispose
+    href: BOOSEGraphicsEnvironment.BitmapManager.html#BOOSEGraphicsEnvironment_BitmapManager_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.BitmapManager.Dispose
+    name: Dispose
+    href: BOOSEGraphicsEnvironment.BitmapManager.html#BOOSEGraphicsEnvironment_BitmapManager_Dispose
+  - name: (
+  - name: )
+- uid: AppTest.BitmapManagerTests.Dispose_IsIdempotent_DoesNotThrowWhenCalledMultipleTimes*
+  commentId: Overload:AppTest.BitmapManagerTests.Dispose_IsIdempotent_DoesNotThrowWhenCalledMultipleTimes
+  href: AppTest.BitmapManagerTests.html#AppTest_BitmapManagerTests_Dispose_IsIdempotent_DoesNotThrowWhenCalledMultipleTimes
+  name: Dispose_IsIdempotent_DoesNotThrowWhenCalledMultipleTimes
+  nameWithType: BitmapManagerTests.Dispose_IsIdempotent_DoesNotThrowWhenCalledMultipleTimes
+  fullName: AppTest.BitmapManagerTests.Dispose_IsIdempotent_DoesNotThrowWhenCalledMultipleTimes

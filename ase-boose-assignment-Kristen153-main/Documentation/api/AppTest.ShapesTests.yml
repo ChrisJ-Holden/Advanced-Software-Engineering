@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: AppTest.ShapesTests
+  commentId: N:AppTest.ShapesTests
+  id: AppTest.ShapesTests
+  children:
+  - AppTest.ShapesTests.EllipseShapeTests
+  - AppTest.ShapesTests.PolygonShapeTests
+  - AppTest.ShapesTests.RectangleShapeTests
+  langs:
+  - csharp
+  - vb
+  name: AppTest.ShapesTests
+  nameWithType: AppTest.ShapesTests
+  fullName: AppTest.ShapesTests
+  type: Namespace
+  assemblies:
+  - AppTest
+references:
+- uid: AppTest.ShapesTests.EllipseShapeTests
+  commentId: T:AppTest.ShapesTests.EllipseShapeTests
+  href: AppTest.ShapesTests.EllipseShapeTests.html
+  name: EllipseShapeTests
+  nameWithType: EllipseShapeTests
+  fullName: AppTest.ShapesTests.EllipseShapeTests
+- uid: AppTest.ShapesTests.PolygonShapeTests
+  commentId: T:AppTest.ShapesTests.PolygonShapeTests
+  href: AppTest.ShapesTests.PolygonShapeTests.html
+  name: PolygonShapeTests
+  nameWithType: PolygonShapeTests
+  fullName: AppTest.ShapesTests.PolygonShapeTests
+- uid: AppTest.ShapesTests.RectangleShapeTests
+  commentId: T:AppTest.ShapesTests.RectangleShapeTests
+  href: AppTest.ShapesTests.RectangleShapeTests.html
+  name: RectangleShapeTests
+  nameWithType: RectangleShapeTests
+  fullName: AppTest.ShapesTests.RectangleShapeTests

@@ -1,0 +1,537 @@
+### YamlMime:ManagedReference
+items:
+- uid: AppTest.ShapesTests.PolygonShapeTests
+  commentId: T:AppTest.ShapesTests.PolygonShapeTests
+  id: PolygonShapeTests
+  parent: AppTest.ShapesTests
+  children:
+  - AppTest.ShapesTests.PolygonShapeTests.Constructor_SetSidesAndDimensions
+  - AppTest.ShapesTests.PolygonShapeTests.CreatePoints_ReturnsCorrectNumberOfPoints
+  - AppTest.ShapesTests.PolygonShapeTests.Draw_ExecutesWithoutException
+  langs:
+  - csharp
+  - vb
+  name: PolygonShapeTests
+  nameWithType: PolygonShapeTests
+  fullName: AppTest.ShapesTests.PolygonShapeTests
+  type: Class
+  source:
+    remote:
+      path: AppTest/ShapesTests/PolygonShapeTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: PolygonShapeTests
+    path: ../AppTest/ShapesTests/PolygonShapeTests.cs
+    startLine: 8
+  assemblies:
+  - AppTest
+  namespace: AppTest.ShapesTests
+  summary: Contains unit tests for the <xref href="BOOSEGraphicsEnvironment.Shapes.PolygonShape" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public sealed class PolygonShapeTests
+    content.vb: >-
+      <TestClass>
+
+      Public NotInheritable Class PolygonShapeTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: AppTest.ShapesTests.PolygonShapeTests.Constructor_SetSidesAndDimensions
+  commentId: M:AppTest.ShapesTests.PolygonShapeTests.Constructor_SetSidesAndDimensions
+  id: Constructor_SetSidesAndDimensions
+  parent: AppTest.ShapesTests.PolygonShapeTests
+  langs:
+  - csharp
+  - vb
+  name: Constructor_SetSidesAndDimensions()
+  nameWithType: PolygonShapeTests.Constructor_SetSidesAndDimensions()
+  fullName: AppTest.ShapesTests.PolygonShapeTests.Constructor_SetSidesAndDimensions()
+  type: Method
+  source:
+    remote:
+      path: AppTest/ShapesTests/PolygonShapeTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Constructor_SetSidesAndDimensions
+    path: ../AppTest/ShapesTests/PolygonShapeTests.cs
+    startLine: 14
+  assemblies:
+  - AppTest
+  namespace: AppTest.ShapesTests
+  summary: Verifies that the constructor correctly sets the number of sides, width, and height.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Constructor_SetSidesAndDimensions()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Constructor_SetSidesAndDimensions()
+  overload: AppTest.ShapesTests.PolygonShapeTests.Constructor_SetSidesAndDimensions*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.ShapesTests.PolygonShapeTests.CreatePoints_ReturnsCorrectNumberOfPoints
+  commentId: M:AppTest.ShapesTests.PolygonShapeTests.CreatePoints_ReturnsCorrectNumberOfPoints
+  id: CreatePoints_ReturnsCorrectNumberOfPoints
+  parent: AppTest.ShapesTests.PolygonShapeTests
+  langs:
+  - csharp
+  - vb
+  name: CreatePoints_ReturnsCorrectNumberOfPoints()
+  nameWithType: PolygonShapeTests.CreatePoints_ReturnsCorrectNumberOfPoints()
+  fullName: AppTest.ShapesTests.PolygonShapeTests.CreatePoints_ReturnsCorrectNumberOfPoints()
+  type: Method
+  source:
+    remote:
+      path: AppTest/ShapesTests/PolygonShapeTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: CreatePoints_ReturnsCorrectNumberOfPoints
+    path: ../AppTest/ShapesTests/PolygonShapeTests.cs
+    startLine: 31
+  assemblies:
+  - AppTest
+  namespace: AppTest.ShapesTests
+  summary: >-
+    Ensures that <xref href="BOOSEGraphicsEnvironment.Shapes.PolygonShape.CreatePoints(System.Single%2cSystem.Single)" data-throw-if-not-resolved="false"></xref> returns the correct number of points
+
+    and that each point is within the expected bounds.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CreatePoints_ReturnsCorrectNumberOfPoints()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CreatePoints_ReturnsCorrectNumberOfPoints()
+  overload: AppTest.ShapesTests.PolygonShapeTests.CreatePoints_ReturnsCorrectNumberOfPoints*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.ShapesTests.PolygonShapeTests.Draw_ExecutesWithoutException
+  commentId: M:AppTest.ShapesTests.PolygonShapeTests.Draw_ExecutesWithoutException
+  id: Draw_ExecutesWithoutException
+  parent: AppTest.ShapesTests.PolygonShapeTests
+  langs:
+  - csharp
+  - vb
+  name: Draw_ExecutesWithoutException()
+  nameWithType: PolygonShapeTests.Draw_ExecutesWithoutException()
+  fullName: AppTest.ShapesTests.PolygonShapeTests.Draw_ExecutesWithoutException()
+  type: Method
+  source:
+    remote:
+      path: AppTest/ShapesTests/PolygonShapeTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Draw_ExecutesWithoutException
+    path: ../AppTest/ShapesTests/PolygonShapeTests.cs
+    startLine: 55
+  assemblies:
+  - AppTest
+  namespace: AppTest.ShapesTests
+  summary: Ensures that the <xref href="BOOSEGraphicsEnvironment.Shapes.PolygonShape.Draw(System.Drawing.Graphics%2cSystem.Drawing.Pen%2cSystem.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> method executes without throwing an exception.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Draw_ExecutesWithoutException()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Draw_ExecutesWithoutException()
+  overload: AppTest.ShapesTests.PolygonShapeTests.Draw_ExecutesWithoutException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: BOOSEGraphicsEnvironment.Shapes.PolygonShape
+  commentId: T:BOOSEGraphicsEnvironment.Shapes.PolygonShape
+  href: BOOSEGraphicsEnvironment.Shapes.PolygonShape.html
+  name: PolygonShape
+  nameWithType: PolygonShape
+  fullName: BOOSEGraphicsEnvironment.Shapes.PolygonShape
+- uid: AppTest.ShapesTests
+  commentId: N:AppTest.ShapesTests
+  href: AppTest.html
+  name: AppTest.ShapesTests
+  nameWithType: AppTest.ShapesTests
+  fullName: AppTest.ShapesTests
+  spec.csharp:
+  - uid: AppTest
+    name: AppTest
+    href: AppTest.html
+  - name: .
+  - uid: AppTest.ShapesTests
+    name: ShapesTests
+    href: AppTest.ShapesTests.html
+  spec.vb:
+  - uid: AppTest
+    name: AppTest
+    href: AppTest.html
+  - name: .
+  - uid: AppTest.ShapesTests
+    name: ShapesTests
+    href: AppTest.ShapesTests.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AppTest.ShapesTests.PolygonShapeTests.Constructor_SetSidesAndDimensions*
+  commentId: Overload:AppTest.ShapesTests.PolygonShapeTests.Constructor_SetSidesAndDimensions
+  href: AppTest.ShapesTests.PolygonShapeTests.html#AppTest_ShapesTests_PolygonShapeTests_Constructor_SetSidesAndDimensions
+  name: Constructor_SetSidesAndDimensions
+  nameWithType: PolygonShapeTests.Constructor_SetSidesAndDimensions
+  fullName: AppTest.ShapesTests.PolygonShapeTests.Constructor_SetSidesAndDimensions
+- uid: BOOSEGraphicsEnvironment.Shapes.PolygonShape.CreatePoints(System.Single,System.Single)
+  commentId: M:BOOSEGraphicsEnvironment.Shapes.PolygonShape.CreatePoints(System.Single,System.Single)
+  isExternal: true
+  href: BOOSEGraphicsEnvironment.Shapes.PolygonShape.html#BOOSEGraphicsEnvironment_Shapes_PolygonShape_CreatePoints_System_Single_System_Single_
+  name: CreatePoints(float, float)
+  nameWithType: PolygonShape.CreatePoints(float, float)
+  fullName: BOOSEGraphicsEnvironment.Shapes.PolygonShape.CreatePoints(float, float)
+  nameWithType.vb: PolygonShape.CreatePoints(Single, Single)
+  fullName.vb: BOOSEGraphicsEnvironment.Shapes.PolygonShape.CreatePoints(Single, Single)
+  name.vb: CreatePoints(Single, Single)
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.Shapes.PolygonShape.CreatePoints(System.Single,System.Single)
+    name: CreatePoints
+    href: BOOSEGraphicsEnvironment.Shapes.PolygonShape.html#BOOSEGraphicsEnvironment_Shapes_PolygonShape_CreatePoints_System_Single_System_Single_
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.Shapes.PolygonShape.CreatePoints(System.Single,System.Single)
+    name: CreatePoints
+    href: BOOSEGraphicsEnvironment.Shapes.PolygonShape.html#BOOSEGraphicsEnvironment_Shapes_PolygonShape_CreatePoints_System_Single_System_Single_
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: AppTest.ShapesTests.PolygonShapeTests.CreatePoints_ReturnsCorrectNumberOfPoints*
+  commentId: Overload:AppTest.ShapesTests.PolygonShapeTests.CreatePoints_ReturnsCorrectNumberOfPoints
+  href: AppTest.ShapesTests.PolygonShapeTests.html#AppTest_ShapesTests_PolygonShapeTests_CreatePoints_ReturnsCorrectNumberOfPoints
+  name: CreatePoints_ReturnsCorrectNumberOfPoints
+  nameWithType: PolygonShapeTests.CreatePoints_ReturnsCorrectNumberOfPoints
+  fullName: AppTest.ShapesTests.PolygonShapeTests.CreatePoints_ReturnsCorrectNumberOfPoints
+- uid: BOOSEGraphicsEnvironment.Shapes.PolygonShape.Draw(System.Drawing.Graphics,System.Drawing.Pen,System.Int32,System.Int32)
+  commentId: M:BOOSEGraphicsEnvironment.Shapes.PolygonShape.Draw(System.Drawing.Graphics,System.Drawing.Pen,System.Int32,System.Int32)
+  isExternal: true
+  href: BOOSEGraphicsEnvironment.Shapes.PolygonShape.html#BOOSEGraphicsEnvironment_Shapes_PolygonShape_Draw_System_Drawing_Graphics_System_Drawing_Pen_System_Int32_System_Int32_
+  name: Draw(Graphics, Pen, int, int)
+  nameWithType: PolygonShape.Draw(Graphics, Pen, int, int)
+  fullName: BOOSEGraphicsEnvironment.Shapes.PolygonShape.Draw(System.Drawing.Graphics, System.Drawing.Pen, int, int)
+  nameWithType.vb: PolygonShape.Draw(Graphics, Pen, Integer, Integer)
+  fullName.vb: BOOSEGraphicsEnvironment.Shapes.PolygonShape.Draw(System.Drawing.Graphics, System.Drawing.Pen, Integer, Integer)
+  name.vb: Draw(Graphics, Pen, Integer, Integer)
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.Shapes.PolygonShape.Draw(System.Drawing.Graphics,System.Drawing.Pen,System.Int32,System.Int32)
+    name: Draw
+    href: BOOSEGraphicsEnvironment.Shapes.PolygonShape.html#BOOSEGraphicsEnvironment_Shapes_PolygonShape_Draw_System_Drawing_Graphics_System_Drawing_Pen_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Drawing.Graphics
+    name: Graphics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.graphics
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Pen
+    name: Pen
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pen
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.Shapes.PolygonShape.Draw(System.Drawing.Graphics,System.Drawing.Pen,System.Int32,System.Int32)
+    name: Draw
+    href: BOOSEGraphicsEnvironment.Shapes.PolygonShape.html#BOOSEGraphicsEnvironment_Shapes_PolygonShape_Draw_System_Drawing_Graphics_System_Drawing_Pen_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Drawing.Graphics
+    name: Graphics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.graphics
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Pen
+    name: Pen
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pen
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: AppTest.ShapesTests.PolygonShapeTests.Draw_ExecutesWithoutException*
+  commentId: Overload:AppTest.ShapesTests.PolygonShapeTests.Draw_ExecutesWithoutException
+  href: AppTest.ShapesTests.PolygonShapeTests.html#AppTest_ShapesTests_PolygonShapeTests_Draw_ExecutesWithoutException
+  name: Draw_ExecutesWithoutException
+  nameWithType: PolygonShapeTests.Draw_ExecutesWithoutException
+  fullName: AppTest.ShapesTests.PolygonShapeTests.Draw_ExecutesWithoutException

@@ -1,0 +1,653 @@
+### YamlMime:ManagedReference
+items:
+- uid: AppTest.CommandsTests.CircleCommandTests
+  commentId: T:AppTest.CommandsTests.CircleCommandTests
+  id: CircleCommandTests
+  parent: AppTest.CommandsTests
+  children:
+  - AppTest.CommandsTests.CircleCommandTests.CheckParameters_InvalidInput_ThrowsCommandException(System.String)
+  - AppTest.CommandsTests.CircleCommandTests.CheckParameters_TrimmedInput_SetsRadius
+  - AppTest.CommandsTests.CircleCommandTests.CheckParameters_ValidInteger_SetsRadius
+  - AppTest.CommandsTests.CircleCommandTests.Constructor_Default_DoesNotThrowAndRadiusIsZero
+  - AppTest.CommandsTests.CircleCommandTests.Constructor_WithCanvasAndRadius_SetsRadius
+  - AppTest.CommandsTests.CircleCommandTests.Execute_WithoutCanvas_ThrowsCommandException
+  langs:
+  - csharp
+  - vb
+  name: CircleCommandTests
+  nameWithType: CircleCommandTests
+  fullName: AppTest.CommandsTests.CircleCommandTests
+  type: Class
+  source:
+    remote:
+      path: AppTest/CommandsTests/CircleCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: CircleCommandTests
+    path: ../AppTest/CommandsTests/CircleCommandTests.cs
+    startLine: 8
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  summary: Contains unit tests for the <xref href="BOOSEGraphicsEnvironment.Commands.CircleCommand" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public sealed class CircleCommandTests
+    content.vb: >-
+      <TestClass>
+
+      Public NotInheritable Class CircleCommandTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: AppTest.CommandsTests.CircleCommandTests.Constructor_Default_DoesNotThrowAndRadiusIsZero
+  commentId: M:AppTest.CommandsTests.CircleCommandTests.Constructor_Default_DoesNotThrowAndRadiusIsZero
+  id: Constructor_Default_DoesNotThrowAndRadiusIsZero
+  parent: AppTest.CommandsTests.CircleCommandTests
+  langs:
+  - csharp
+  - vb
+  name: Constructor_Default_DoesNotThrowAndRadiusIsZero()
+  nameWithType: CircleCommandTests.Constructor_Default_DoesNotThrowAndRadiusIsZero()
+  fullName: AppTest.CommandsTests.CircleCommandTests.Constructor_Default_DoesNotThrowAndRadiusIsZero()
+  type: Method
+  source:
+    remote:
+      path: AppTest/CommandsTests/CircleCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Constructor_Default_DoesNotThrowAndRadiusIsZero
+    path: ../AppTest/CommandsTests/CircleCommandTests.cs
+    startLine: 41
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  summary: Verifies that the default constructor does not throw an exception and initializes the radius to zero.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Constructor_Default_DoesNotThrowAndRadiusIsZero()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Constructor_Default_DoesNotThrowAndRadiusIsZero()
+  overload: AppTest.CommandsTests.CircleCommandTests.Constructor_Default_DoesNotThrowAndRadiusIsZero*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.CommandsTests.CircleCommandTests.Constructor_WithCanvasAndRadius_SetsRadius
+  commentId: M:AppTest.CommandsTests.CircleCommandTests.Constructor_WithCanvasAndRadius_SetsRadius
+  id: Constructor_WithCanvasAndRadius_SetsRadius
+  parent: AppTest.CommandsTests.CircleCommandTests
+  langs:
+  - csharp
+  - vb
+  name: Constructor_WithCanvasAndRadius_SetsRadius()
+  nameWithType: CircleCommandTests.Constructor_WithCanvasAndRadius_SetsRadius()
+  fullName: AppTest.CommandsTests.CircleCommandTests.Constructor_WithCanvasAndRadius_SetsRadius()
+  type: Method
+  source:
+    remote:
+      path: AppTest/CommandsTests/CircleCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Constructor_WithCanvasAndRadius_SetsRadius
+    path: ../AppTest/CommandsTests/CircleCommandTests.cs
+    startLine: 52
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  summary: Verifies that the constructor with a canvas and radius correctly sets the radius.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Constructor_WithCanvasAndRadius_SetsRadius()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Constructor_WithCanvasAndRadius_SetsRadius()
+  overload: AppTest.CommandsTests.CircleCommandTests.Constructor_WithCanvasAndRadius_SetsRadius*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.CommandsTests.CircleCommandTests.CheckParameters_ValidInteger_SetsRadius
+  commentId: M:AppTest.CommandsTests.CircleCommandTests.CheckParameters_ValidInteger_SetsRadius
+  id: CheckParameters_ValidInteger_SetsRadius
+  parent: AppTest.CommandsTests.CircleCommandTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_ValidInteger_SetsRadius()
+  nameWithType: CircleCommandTests.CheckParameters_ValidInteger_SetsRadius()
+  fullName: AppTest.CommandsTests.CircleCommandTests.CheckParameters_ValidInteger_SetsRadius()
+  type: Method
+  source:
+    remote:
+      path: AppTest/CommandsTests/CircleCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: CheckParameters_ValidInteger_SetsRadius
+    path: ../AppTest/CommandsTests/CircleCommandTests.cs
+    startLine: 63
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  summary: Verifies that providing a valid integer parameter correctly sets the radius.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckParameters_ValidInteger_SetsRadius()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckParameters_ValidInteger_SetsRadius()
+  overload: AppTest.CommandsTests.CircleCommandTests.CheckParameters_ValidInteger_SetsRadius*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.CommandsTests.CircleCommandTests.CheckParameters_InvalidInput_ThrowsCommandException(System.String)
+  commentId: M:AppTest.CommandsTests.CircleCommandTests.CheckParameters_InvalidInput_ThrowsCommandException(System.String)
+  id: CheckParameters_InvalidInput_ThrowsCommandException(System.String)
+  parent: AppTest.CommandsTests.CircleCommandTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_InvalidInput_ThrowsCommandException(string)
+  nameWithType: CircleCommandTests.CheckParameters_InvalidInput_ThrowsCommandException(string)
+  fullName: AppTest.CommandsTests.CircleCommandTests.CheckParameters_InvalidInput_ThrowsCommandException(string)
+  type: Method
+  source:
+    remote:
+      path: AppTest/CommandsTests/CircleCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: CheckParameters_InvalidInput_ThrowsCommandException
+    path: ../AppTest/CommandsTests/CircleCommandTests.cs
+    startLine: 77
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  summary: >-
+    Tests invalid input scenarios for the <xref href="BOOSEGraphicsEnvironment.Commands.CircleCommand.CheckParameters(System.String%5b%5d)" data-throw-if-not-resolved="false"></xref> method
+
+    and ensures a <xref href="BOOSE.CommandException" data-throw-if-not-resolved="false"></xref> is thrown.
+  example: []
+  syntax:
+    content: >-
+      [DataTestMethod]
+
+      [DataRow("")]
+
+      [DataRow("abc")]
+
+      [DataRow("1,2")]
+
+      [DataRow(null)]
+
+      public void CheckParameters_InvalidInput_ThrowsCommandException(string input)
+    parameters:
+    - id: input
+      type: System.String
+      description: The invalid input string to test.
+    content.vb: >-
+      <DataTestMethod>
+
+      <DataRow("")>
+
+      <DataRow("abc")>
+
+      <DataRow("1,2")>
+
+      <DataRow(Nothing)>
+
+      Public Sub CheckParameters_InvalidInput_ThrowsCommandException(input As String)
+  overload: AppTest.CommandsTests.CircleCommandTests.CheckParameters_InvalidInput_ThrowsCommandException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.DataTestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.DataTestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute.#ctor(System.Object)
+    arguments:
+    - type: System.String
+      value: ''
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute.#ctor(System.Object)
+    arguments:
+    - type: System.String
+      value: abc
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute.#ctor(System.Object)
+    arguments:
+    - type: System.String
+      value: 1,2
+  nameWithType.vb: CircleCommandTests.CheckParameters_InvalidInput_ThrowsCommandException(String)
+  fullName.vb: AppTest.CommandsTests.CircleCommandTests.CheckParameters_InvalidInput_ThrowsCommandException(String)
+  name.vb: CheckParameters_InvalidInput_ThrowsCommandException(String)
+- uid: AppTest.CommandsTests.CircleCommandTests.CheckParameters_TrimmedInput_SetsRadius
+  commentId: M:AppTest.CommandsTests.CircleCommandTests.CheckParameters_TrimmedInput_SetsRadius
+  id: CheckParameters_TrimmedInput_SetsRadius
+  parent: AppTest.CommandsTests.CircleCommandTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_TrimmedInput_SetsRadius()
+  nameWithType: CircleCommandTests.CheckParameters_TrimmedInput_SetsRadius()
+  fullName: AppTest.CommandsTests.CircleCommandTests.CheckParameters_TrimmedInput_SetsRadius()
+  type: Method
+  source:
+    remote:
+      path: AppTest/CommandsTests/CircleCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: CheckParameters_TrimmedInput_SetsRadius
+    path: ../AppTest/CommandsTests/CircleCommandTests.cs
+    startLine: 93
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  summary: Verifies that whitespace-trimmed valid input correctly sets the radius.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckParameters_TrimmedInput_SetsRadius()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckParameters_TrimmedInput_SetsRadius()
+  overload: AppTest.CommandsTests.CircleCommandTests.CheckParameters_TrimmedInput_SetsRadius*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.CommandsTests.CircleCommandTests.Execute_WithoutCanvas_ThrowsCommandException
+  commentId: M:AppTest.CommandsTests.CircleCommandTests.Execute_WithoutCanvas_ThrowsCommandException
+  id: Execute_WithoutCanvas_ThrowsCommandException
+  parent: AppTest.CommandsTests.CircleCommandTests
+  langs:
+  - csharp
+  - vb
+  name: Execute_WithoutCanvas_ThrowsCommandException()
+  nameWithType: CircleCommandTests.Execute_WithoutCanvas_ThrowsCommandException()
+  fullName: AppTest.CommandsTests.CircleCommandTests.Execute_WithoutCanvas_ThrowsCommandException()
+  type: Method
+  source:
+    remote:
+      path: AppTest/CommandsTests/CircleCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Execute_WithoutCanvas_ThrowsCommandException
+    path: ../AppTest/CommandsTests/CircleCommandTests.cs
+    startLine: 104
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  summary: Ensures that executing the command without a canvas throws a <xref href="BOOSE.CommandException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Execute_WithoutCanvas_ThrowsCommandException()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Execute_WithoutCanvas_ThrowsCommandException()
+  overload: AppTest.CommandsTests.CircleCommandTests.Execute_WithoutCanvas_ThrowsCommandException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: BOOSEGraphicsEnvironment.Commands.CircleCommand
+  commentId: T:BOOSEGraphicsEnvironment.Commands.CircleCommand
+  href: BOOSEGraphicsEnvironment.Commands.CircleCommand.html
+  name: CircleCommand
+  nameWithType: CircleCommand
+  fullName: BOOSEGraphicsEnvironment.Commands.CircleCommand
+- uid: AppTest.CommandsTests
+  commentId: N:AppTest.CommandsTests
+  href: AppTest.html
+  name: AppTest.CommandsTests
+  nameWithType: AppTest.CommandsTests
+  fullName: AppTest.CommandsTests
+  spec.csharp:
+  - uid: AppTest
+    name: AppTest
+    href: AppTest.html
+  - name: .
+  - uid: AppTest.CommandsTests
+    name: CommandsTests
+    href: AppTest.CommandsTests.html
+  spec.vb:
+  - uid: AppTest
+    name: AppTest
+    href: AppTest.html
+  - name: .
+  - uid: AppTest.CommandsTests
+    name: CommandsTests
+    href: AppTest.CommandsTests.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AppTest.CommandsTests.CircleCommandTests.Constructor_Default_DoesNotThrowAndRadiusIsZero*
+  commentId: Overload:AppTest.CommandsTests.CircleCommandTests.Constructor_Default_DoesNotThrowAndRadiusIsZero
+  href: AppTest.CommandsTests.CircleCommandTests.html#AppTest_CommandsTests_CircleCommandTests_Constructor_Default_DoesNotThrowAndRadiusIsZero
+  name: Constructor_Default_DoesNotThrowAndRadiusIsZero
+  nameWithType: CircleCommandTests.Constructor_Default_DoesNotThrowAndRadiusIsZero
+  fullName: AppTest.CommandsTests.CircleCommandTests.Constructor_Default_DoesNotThrowAndRadiusIsZero
+- uid: AppTest.CommandsTests.CircleCommandTests.Constructor_WithCanvasAndRadius_SetsRadius*
+  commentId: Overload:AppTest.CommandsTests.CircleCommandTests.Constructor_WithCanvasAndRadius_SetsRadius
+  href: AppTest.CommandsTests.CircleCommandTests.html#AppTest_CommandsTests_CircleCommandTests_Constructor_WithCanvasAndRadius_SetsRadius
+  name: Constructor_WithCanvasAndRadius_SetsRadius
+  nameWithType: CircleCommandTests.Constructor_WithCanvasAndRadius_SetsRadius
+  fullName: AppTest.CommandsTests.CircleCommandTests.Constructor_WithCanvasAndRadius_SetsRadius
+- uid: AppTest.CommandsTests.CircleCommandTests.CheckParameters_ValidInteger_SetsRadius*
+  commentId: Overload:AppTest.CommandsTests.CircleCommandTests.CheckParameters_ValidInteger_SetsRadius
+  href: AppTest.CommandsTests.CircleCommandTests.html#AppTest_CommandsTests_CircleCommandTests_CheckParameters_ValidInteger_SetsRadius
+  name: CheckParameters_ValidInteger_SetsRadius
+  nameWithType: CircleCommandTests.CheckParameters_ValidInteger_SetsRadius
+  fullName: AppTest.CommandsTests.CircleCommandTests.CheckParameters_ValidInteger_SetsRadius
+- uid: BOOSEGraphicsEnvironment.Commands.CircleCommand.CheckParameters(System.String[])
+  commentId: M:BOOSEGraphicsEnvironment.Commands.CircleCommand.CheckParameters(System.String[])
+  isExternal: true
+  href: BOOSEGraphicsEnvironment.Commands.CircleCommand.html#BOOSEGraphicsEnvironment_Commands_CircleCommand_CheckParameters_System_String___
+  name: CheckParameters(string[])
+  nameWithType: CircleCommand.CheckParameters(string[])
+  fullName: BOOSEGraphicsEnvironment.Commands.CircleCommand.CheckParameters(string[])
+  nameWithType.vb: CircleCommand.CheckParameters(String())
+  fullName.vb: BOOSEGraphicsEnvironment.Commands.CircleCommand.CheckParameters(String())
+  name.vb: CheckParameters(String())
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.Commands.CircleCommand.CheckParameters(System.String[])
+    name: CheckParameters
+    href: BOOSEGraphicsEnvironment.Commands.CircleCommand.html#BOOSEGraphicsEnvironment_Commands_CircleCommand_CheckParameters_System_String___
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.Commands.CircleCommand.CheckParameters(System.String[])
+    name: CheckParameters
+    href: BOOSEGraphicsEnvironment.Commands.CircleCommand.html#BOOSEGraphicsEnvironment_Commands_CircleCommand_CheckParameters_System_String___
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: BOOSE.CommandException
+  commentId: T:BOOSE.CommandException
+  isExternal: true
+  name: CommandException
+  nameWithType: CommandException
+  fullName: BOOSE.CommandException
+- uid: AppTest.CommandsTests.CircleCommandTests.CheckParameters_InvalidInput_ThrowsCommandException*
+  commentId: Overload:AppTest.CommandsTests.CircleCommandTests.CheckParameters_InvalidInput_ThrowsCommandException
+  href: AppTest.CommandsTests.CircleCommandTests.html#AppTest_CommandsTests_CircleCommandTests_CheckParameters_InvalidInput_ThrowsCommandException_System_String_
+  name: CheckParameters_InvalidInput_ThrowsCommandException
+  nameWithType: CircleCommandTests.CheckParameters_InvalidInput_ThrowsCommandException
+  fullName: AppTest.CommandsTests.CircleCommandTests.CheckParameters_InvalidInput_ThrowsCommandException
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: AppTest.CommandsTests.CircleCommandTests.CheckParameters_TrimmedInput_SetsRadius*
+  commentId: Overload:AppTest.CommandsTests.CircleCommandTests.CheckParameters_TrimmedInput_SetsRadius
+  href: AppTest.CommandsTests.CircleCommandTests.html#AppTest_CommandsTests_CircleCommandTests_CheckParameters_TrimmedInput_SetsRadius
+  name: CheckParameters_TrimmedInput_SetsRadius
+  nameWithType: CircleCommandTests.CheckParameters_TrimmedInput_SetsRadius
+  fullName: AppTest.CommandsTests.CircleCommandTests.CheckParameters_TrimmedInput_SetsRadius
+- uid: AppTest.CommandsTests.CircleCommandTests.Execute_WithoutCanvas_ThrowsCommandException*
+  commentId: Overload:AppTest.CommandsTests.CircleCommandTests.Execute_WithoutCanvas_ThrowsCommandException
+  href: AppTest.CommandsTests.CircleCommandTests.html#AppTest_CommandsTests_CircleCommandTests_Execute_WithoutCanvas_ThrowsCommandException
+  name: Execute_WithoutCanvas_ThrowsCommandException
+  nameWithType: CircleCommandTests.Execute_WithoutCanvas_ThrowsCommandException
+  fullName: AppTest.CommandsTests.CircleCommandTests.Execute_WithoutCanvas_ThrowsCommandException

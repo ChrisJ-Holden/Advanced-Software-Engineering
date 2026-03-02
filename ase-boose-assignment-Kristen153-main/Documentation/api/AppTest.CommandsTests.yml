@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: AppTest.CommandsTests
+  commentId: N:AppTest.CommandsTests
+  id: AppTest.CommandsTests
+  children:
+  - AppTest.CommandsTests.CircleCommandTests
+  - AppTest.CommandsTests.CircleCommandTests.MockCanvas
+  - AppTest.CommandsTests.DrawToCommandTests
+  - AppTest.CommandsTests.DrawToCommandTests.MockCanvas
+  - AppTest.CommandsTests.MoveToCommandTests
+  - AppTest.CommandsTests.MoveToCommandTests.MockCanvas
+  - AppTest.CommandsTests.PenCommandTests
+  - AppTest.CommandsTests.PenCommandTests.MockCanvas
+  - AppTest.CommandsTests.RectCommandTests
+  - AppTest.CommandsTests.RectCommandTests.MockCanvas
+  - AppTest.CommandsTests.TriCommandTests
+  - AppTest.CommandsTests.TriCommandTests.MockCanvas
+  langs:
+  - csharp
+  - vb
+  name: AppTest.CommandsTests
+  nameWithType: AppTest.CommandsTests
+  fullName: AppTest.CommandsTests
+  type: Namespace
+  assemblies:
+  - AppTest
+references:
+- uid: AppTest.CommandsTests.CircleCommandTests
+  commentId: T:AppTest.CommandsTests.CircleCommandTests
+  href: AppTest.CommandsTests.CircleCommandTests.html
+  name: CircleCommandTests
+  nameWithType: CircleCommandTests
+  fullName: AppTest.CommandsTests.CircleCommandTests
+- uid: AppTest.CommandsTests.CircleCommandTests.MockCanvas
+  commentId: T:AppTest.CommandsTests.CircleCommandTests.MockCanvas
+  href: AppTest.CommandsTests.CircleCommandTests.html
+  name: CircleCommandTests.MockCanvas
+  nameWithType: CircleCommandTests.MockCanvas
+  fullName: AppTest.CommandsTests.CircleCommandTests.MockCanvas
+  spec.csharp:
+  - uid: AppTest.CommandsTests.CircleCommandTests
+    name: CircleCommandTests
+    href: AppTest.CommandsTests.CircleCommandTests.html
+  - name: .
+  - uid: AppTest.CommandsTests.CircleCommandTests.MockCanvas
+    name: MockCanvas
+    href: AppTest.CommandsTests.CircleCommandTests.MockCanvas.html
+  spec.vb:
+  - uid: AppTest.CommandsTests.CircleCommandTests
+    name: CircleCommandTests
+    href: AppTest.CommandsTests.CircleCommandTests.html
+  - name: .
+  - uid: AppTest.CommandsTests.CircleCommandTests.MockCanvas
+    name: MockCanvas
+    href: AppTest.CommandsTests.CircleCommandTests.MockCanvas.html
+- uid: AppTest.CommandsTests.DrawToCommandTests
+  commentId: T:AppTest.CommandsTests.DrawToCommandTests
+  href: AppTest.CommandsTests.DrawToCommandTests.html
+  name: DrawToCommandTests
+  nameWithType: DrawToCommandTests
+  fullName: AppTest.CommandsTests.DrawToCommandTests
+- uid: AppTest.CommandsTests.DrawToCommandTests.MockCanvas
+  commentId: T:AppTest.CommandsTests.DrawToCommandTests.MockCanvas
+  href: AppTest.CommandsTests.DrawToCommandTests.html
+  name: DrawToCommandTests.MockCanvas
+  nameWithType: DrawToCommandTests.MockCanvas
+  fullName: AppTest.CommandsTests.DrawToCommandTests.MockCanvas
+  spec.csharp:
+  - uid: AppTest.CommandsTests.DrawToCommandTests
+    name: DrawToCommandTests
+    href: AppTest.CommandsTests.DrawToCommandTests.html
+  - name: .
+  - uid: AppTest.CommandsTests.DrawToCommandTests.MockCanvas
+    name: MockCanvas
+    href: AppTest.CommandsTests.DrawToCommandTests.MockCanvas.html
+  spec.vb:
+  - uid: AppTest.CommandsTests.DrawToCommandTests
+    name: DrawToCommandTests
+    href: AppTest.CommandsTests.DrawToCommandTests.html
+  - name: .
+  - uid: AppTest.CommandsTests.DrawToCommandTests.MockCanvas
+    name: MockCanvas
+    href: AppTest.CommandsTests.DrawToCommandTests.MockCanvas.html
+- uid: AppTest.CommandsTests.MoveToCommandTests
+  commentId: T:AppTest.CommandsTests.MoveToCommandTests
+  href: AppTest.CommandsTests.MoveToCommandTests.html
+  name: MoveToCommandTests
+  nameWithType: MoveToCommandTests
+  fullName: AppTest.CommandsTests.MoveToCommandTests
+- uid: AppTest.CommandsTests.MoveToCommandTests.MockCanvas
+  commentId: T:AppTest.CommandsTests.MoveToCommandTests.MockCanvas
+  href: AppTest.CommandsTests.MoveToCommandTests.html
+  name: MoveToCommandTests.MockCanvas
+  nameWithType: MoveToCommandTests.MockCanvas
+  fullName: AppTest.CommandsTests.MoveToCommandTests.MockCanvas
+  spec.csharp:
+  - uid: AppTest.CommandsTests.MoveToCommandTests
+    name: MoveToCommandTests
+    href: AppTest.CommandsTests.MoveToCommandTests.html
+  - name: .
+  - uid: AppTest.CommandsTests.MoveToCommandTests.MockCanvas
+    name: MockCanvas
+    href: AppTest.CommandsTests.MoveToCommandTests.MockCanvas.html
+  spec.vb:
+  - uid: AppTest.CommandsTests.MoveToCommandTests
+    name: MoveToCommandTests
+    href: AppTest.CommandsTests.MoveToCommandTests.html
+  - name: .
+  - uid: AppTest.CommandsTests.MoveToCommandTests.MockCanvas
+    name: MockCanvas
+    href: AppTest.CommandsTests.MoveToCommandTests.MockCanvas.html
+- uid: AppTest.CommandsTests.PenCommandTests
+  commentId: T:AppTest.CommandsTests.PenCommandTests
+  href: AppTest.CommandsTests.PenCommandTests.html
+  name: PenCommandTests
+  nameWithType: PenCommandTests
+  fullName: AppTest.CommandsTests.PenCommandTests
+- uid: AppTest.CommandsTests.PenCommandTests.MockCanvas
+  commentId: T:AppTest.CommandsTests.PenCommandTests.MockCanvas
+  href: AppTest.CommandsTests.PenCommandTests.html
+  name: PenCommandTests.MockCanvas
+  nameWithType: PenCommandTests.MockCanvas
+  fullName: AppTest.CommandsTests.PenCommandTests.MockCanvas
+  spec.csharp:
+  - uid: AppTest.CommandsTests.PenCommandTests
+    name: PenCommandTests
+    href: AppTest.CommandsTests.PenCommandTests.html
+  - name: .
+  - uid: AppTest.CommandsTests.PenCommandTests.MockCanvas
+    name: MockCanvas
+    href: AppTest.CommandsTests.PenCommandTests.MockCanvas.html
+  spec.vb:
+  - uid: AppTest.CommandsTests.PenCommandTests
+    name: PenCommandTests
+    href: AppTest.CommandsTests.PenCommandTests.html
+  - name: .
+  - uid: AppTest.CommandsTests.PenCommandTests.MockCanvas
+    name: MockCanvas
+    href: AppTest.CommandsTests.PenCommandTests.MockCanvas.html
+- uid: AppTest.CommandsTests.RectCommandTests
+  commentId: T:AppTest.CommandsTests.RectCommandTests
+  href: AppTest.CommandsTests.RectCommandTests.html
+  name: RectCommandTests
+  nameWithType: RectCommandTests
+  fullName: AppTest.CommandsTests.RectCommandTests
+- uid: AppTest.CommandsTests.RectCommandTests.MockCanvas
+  commentId: T:AppTest.CommandsTests.RectCommandTests.MockCanvas
+  href: AppTest.CommandsTests.RectCommandTests.html
+  name: RectCommandTests.MockCanvas
+  nameWithType: RectCommandTests.MockCanvas
+  fullName: AppTest.CommandsTests.RectCommandTests.MockCanvas
+  spec.csharp:
+  - uid: AppTest.CommandsTests.RectCommandTests
+    name: RectCommandTests
+    href: AppTest.CommandsTests.RectCommandTests.html
+  - name: .
+  - uid: AppTest.CommandsTests.RectCommandTests.MockCanvas
+    name: MockCanvas
+    href: AppTest.CommandsTests.RectCommandTests.MockCanvas.html
+  spec.vb:
+  - uid: AppTest.CommandsTests.RectCommandTests
+    name: RectCommandTests
+    href: AppTest.CommandsTests.RectCommandTests.html
+  - name: .
+  - uid: AppTest.CommandsTests.RectCommandTests.MockCanvas
+    name: MockCanvas
+    href: AppTest.CommandsTests.RectCommandTests.MockCanvas.html
+- uid: AppTest.CommandsTests.TriCommandTests
+  commentId: T:AppTest.CommandsTests.TriCommandTests
+  href: AppTest.CommandsTests.TriCommandTests.html
+  name: TriCommandTests
+  nameWithType: TriCommandTests
+  fullName: AppTest.CommandsTests.TriCommandTests
+- uid: AppTest.CommandsTests.TriCommandTests.MockCanvas
+  commentId: T:AppTest.CommandsTests.TriCommandTests.MockCanvas
+  href: AppTest.CommandsTests.TriCommandTests.html
+  name: TriCommandTests.MockCanvas
+  nameWithType: TriCommandTests.MockCanvas
+  fullName: AppTest.CommandsTests.TriCommandTests.MockCanvas
+  spec.csharp:
+  - uid: AppTest.CommandsTests.TriCommandTests
+    name: TriCommandTests
+    href: AppTest.CommandsTests.TriCommandTests.html
+  - name: .
+  - uid: AppTest.CommandsTests.TriCommandTests.MockCanvas
+    name: MockCanvas
+    href: AppTest.CommandsTests.TriCommandTests.MockCanvas.html
+  spec.vb:
+  - uid: AppTest.CommandsTests.TriCommandTests
+    name: TriCommandTests
+    href: AppTest.CommandsTests.TriCommandTests.html
+  - name: .
+  - uid: AppTest.CommandsTests.TriCommandTests.MockCanvas
+    name: MockCanvas
+    href: AppTest.CommandsTests.TriCommandTests.MockCanvas.html

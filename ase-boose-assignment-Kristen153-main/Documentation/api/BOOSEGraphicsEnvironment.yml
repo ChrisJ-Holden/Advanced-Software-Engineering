@@ -1,0 +1,75 @@
+### YamlMime:ManagedReference
+items:
+- uid: BOOSEGraphicsEnvironment
+  commentId: N:BOOSEGraphicsEnvironment
+  id: BOOSEGraphicsEnvironment
+  children:
+  - BOOSEGraphicsEnvironment.AppCanvas
+  - BOOSEGraphicsEnvironment.AppCommandFactory
+  - BOOSEGraphicsEnvironment.AppForm
+  - BOOSEGraphicsEnvironment.ApplicationConfiguration
+  - BOOSEGraphicsEnvironment.BitmapManager
+  - BOOSEGraphicsEnvironment.IDrawable
+  - BOOSEGraphicsEnvironment.Program
+  langs:
+  - csharp
+  - vb
+  name: BOOSEGraphicsEnvironment
+  nameWithType: BOOSEGraphicsEnvironment
+  fullName: BOOSEGraphicsEnvironment
+  type: Namespace
+  assemblies:
+  - BOOSEGraphicsEnvironment
+references:
+- uid: BOOSEGraphicsEnvironment.AppCanvas
+  commentId: T:BOOSEGraphicsEnvironment.AppCanvas
+  parent: BOOSEGraphicsEnvironment
+  href: BOOSEGraphicsEnvironment.AppCanvas.html
+  name: AppCanvas
+  nameWithType: AppCanvas
+  fullName: BOOSEGraphicsEnvironment.AppCanvas
+- uid: BOOSEGraphicsEnvironment.AppCommandFactory
+  commentId: T:BOOSEGraphicsEnvironment.AppCommandFactory
+  parent: BOOSEGraphicsEnvironment
+  href: BOOSEGraphicsEnvironment.AppCommandFactory.html
+  name: AppCommandFactory
+  nameWithType: AppCommandFactory
+  fullName: BOOSEGraphicsEnvironment.AppCommandFactory
+- uid: BOOSEGraphicsEnvironment.AppForm
+  commentId: T:BOOSEGraphicsEnvironment.AppForm
+  href: BOOSEGraphicsEnvironment.AppForm.html
+  name: AppForm
+  nameWithType: AppForm
+  fullName: BOOSEGraphicsEnvironment.AppForm
+- uid: BOOSEGraphicsEnvironment.BitmapManager
+  commentId: T:BOOSEGraphicsEnvironment.BitmapManager
+  parent: BOOSEGraphicsEnvironment
+  href: BOOSEGraphicsEnvironment.BitmapManager.html
+  name: BitmapManager
+  nameWithType: BitmapManager
+  fullName: BOOSEGraphicsEnvironment.BitmapManager
+- uid: BOOSEGraphicsEnvironment.IDrawable
+  commentId: T:BOOSEGraphicsEnvironment.IDrawable
+  parent: BOOSEGraphicsEnvironment
+  href: BOOSEGraphicsEnvironment.IDrawable.html
+  name: IDrawable
+  nameWithType: IDrawable
+  fullName: BOOSEGraphicsEnvironment.IDrawable
+- uid: BOOSEGraphicsEnvironment.Program
+  commentId: T:BOOSEGraphicsEnvironment.Program
+  href: BOOSEGraphicsEnvironment.Program.html
+  name: Program
+  nameWithType: Program
+  fullName: BOOSEGraphicsEnvironment.Program
+- uid: BOOSEGraphicsEnvironment.ApplicationConfiguration
+  commentId: T:BOOSEGraphicsEnvironment.ApplicationConfiguration
+  href: BOOSEGraphicsEnvironment.ApplicationConfiguration.html
+  name: ApplicationConfiguration
+  nameWithType: ApplicationConfiguration
+  fullName: BOOSEGraphicsEnvironment.ApplicationConfiguration
+- uid: BOOSEGraphicsEnvironment
+  commentId: N:BOOSEGraphicsEnvironment
+  href: BOOSEGraphicsEnvironment.html
+  name: BOOSEGraphicsEnvironment
+  nameWithType: BOOSEGraphicsEnvironment
+  fullName: BOOSEGraphicsEnvironment

@@ -1,0 +1,649 @@
+### YamlMime:ManagedReference
+items:
+- uid: AppTest.CommandsTests.MoveToCommandTests
+  commentId: T:AppTest.CommandsTests.MoveToCommandTests
+  id: MoveToCommandTests
+  parent: AppTest.CommandsTests
+  children:
+  - AppTest.CommandsTests.MoveToCommandTests.CheckParameters_NonIntegerValues_ThrowsCommandException(System.String,System.String)
+  - AppTest.CommandsTests.MoveToCommandTests.CheckParameters_Null_ThrowsCommandException
+  - AppTest.CommandsTests.MoveToCommandTests.CheckParameters_ValidIntegers_SetsXAndY
+  - AppTest.CommandsTests.MoveToCommandTests.CheckParameters_WrongParameterCount_ThrowsCommandException
+  - AppTest.CommandsTests.MoveToCommandTests.Constructor_Default_DoesNotThrowAndPositionsAreZero
+  - AppTest.CommandsTests.MoveToCommandTests.Constructor_WithCanvasAndPositions_SetsProperties
+  - AppTest.CommandsTests.MoveToCommandTests.Execute_WithoutCanvas_ThrowsCommandException
+  langs:
+  - csharp
+  - vb
+  name: MoveToCommandTests
+  nameWithType: MoveToCommandTests
+  fullName: AppTest.CommandsTests.MoveToCommandTests
+  type: Class
+  source:
+    remote:
+      path: AppTest/CommandsTests/MoveToCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: MoveToCommandTests
+    path: ../AppTest/CommandsTests/MoveToCommandTests.cs
+    startLine: 8
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  summary: Contains unit tests for the <xref href="BOOSEGraphicsEnvironment.Commands.MoveToCommand" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public sealed class MoveToCommandTests
+    content.vb: >-
+      <TestClass>
+
+      Public NotInheritable Class MoveToCommandTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: AppTest.CommandsTests.MoveToCommandTests.Constructor_Default_DoesNotThrowAndPositionsAreZero
+  commentId: M:AppTest.CommandsTests.MoveToCommandTests.Constructor_Default_DoesNotThrowAndPositionsAreZero
+  id: Constructor_Default_DoesNotThrowAndPositionsAreZero
+  parent: AppTest.CommandsTests.MoveToCommandTests
+  langs:
+  - csharp
+  - vb
+  name: Constructor_Default_DoesNotThrowAndPositionsAreZero()
+  nameWithType: MoveToCommandTests.Constructor_Default_DoesNotThrowAndPositionsAreZero()
+  fullName: AppTest.CommandsTests.MoveToCommandTests.Constructor_Default_DoesNotThrowAndPositionsAreZero()
+  type: Method
+  source:
+    remote:
+      path: AppTest/CommandsTests/MoveToCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Constructor_Default_DoesNotThrowAndPositionsAreZero
+    path: ../AppTest/CommandsTests/MoveToCommandTests.cs
+    startLine: 36
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  summary: Verifies that the default constructor does not throw and initializes X and Y positions to zero.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Constructor_Default_DoesNotThrowAndPositionsAreZero()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Constructor_Default_DoesNotThrowAndPositionsAreZero()
+  overload: AppTest.CommandsTests.MoveToCommandTests.Constructor_Default_DoesNotThrowAndPositionsAreZero*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.CommandsTests.MoveToCommandTests.Constructor_WithCanvasAndPositions_SetsProperties
+  commentId: M:AppTest.CommandsTests.MoveToCommandTests.Constructor_WithCanvasAndPositions_SetsProperties
+  id: Constructor_WithCanvasAndPositions_SetsProperties
+  parent: AppTest.CommandsTests.MoveToCommandTests
+  langs:
+  - csharp
+  - vb
+  name: Constructor_WithCanvasAndPositions_SetsProperties()
+  nameWithType: MoveToCommandTests.Constructor_WithCanvasAndPositions_SetsProperties()
+  fullName: AppTest.CommandsTests.MoveToCommandTests.Constructor_WithCanvasAndPositions_SetsProperties()
+  type: Method
+  source:
+    remote:
+      path: AppTest/CommandsTests/MoveToCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Constructor_WithCanvasAndPositions_SetsProperties
+    path: ../AppTest/CommandsTests/MoveToCommandTests.cs
+    startLine: 48
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  summary: Verifies that the constructor with a canvas and coordinates correctly sets the X and Y properties.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Constructor_WithCanvasAndPositions_SetsProperties()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Constructor_WithCanvasAndPositions_SetsProperties()
+  overload: AppTest.CommandsTests.MoveToCommandTests.Constructor_WithCanvasAndPositions_SetsProperties*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_ValidIntegers_SetsXAndY
+  commentId: M:AppTest.CommandsTests.MoveToCommandTests.CheckParameters_ValidIntegers_SetsXAndY
+  id: CheckParameters_ValidIntegers_SetsXAndY
+  parent: AppTest.CommandsTests.MoveToCommandTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_ValidIntegers_SetsXAndY()
+  nameWithType: MoveToCommandTests.CheckParameters_ValidIntegers_SetsXAndY()
+  fullName: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_ValidIntegers_SetsXAndY()
+  type: Method
+  source:
+    remote:
+      path: AppTest/CommandsTests/MoveToCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: CheckParameters_ValidIntegers_SetsXAndY
+    path: ../AppTest/CommandsTests/MoveToCommandTests.cs
+    startLine: 61
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  summary: Verifies that valid integer parameters correctly set the X and Y positions.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckParameters_ValidIntegers_SetsXAndY()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckParameters_ValidIntegers_SetsXAndY()
+  overload: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_ValidIntegers_SetsXAndY*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_WrongParameterCount_ThrowsCommandException
+  commentId: M:AppTest.CommandsTests.MoveToCommandTests.CheckParameters_WrongParameterCount_ThrowsCommandException
+  id: CheckParameters_WrongParameterCount_ThrowsCommandException
+  parent: AppTest.CommandsTests.MoveToCommandTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_WrongParameterCount_ThrowsCommandException()
+  nameWithType: MoveToCommandTests.CheckParameters_WrongParameterCount_ThrowsCommandException()
+  fullName: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_WrongParameterCount_ThrowsCommandException()
+  type: Method
+  source:
+    remote:
+      path: AppTest/CommandsTests/MoveToCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: CheckParameters_WrongParameterCount_ThrowsCommandException
+    path: ../AppTest/CommandsTests/MoveToCommandTests.cs
+    startLine: 73
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  summary: Ensures that incorrect parameter counts cause a <xref href="BOOSE.CommandException" data-throw-if-not-resolved="false"></xref> to be thrown.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckParameters_WrongParameterCount_ThrowsCommandException()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckParameters_WrongParameterCount_ThrowsCommandException()
+  overload: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_WrongParameterCount_ThrowsCommandException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_NonIntegerValues_ThrowsCommandException(System.String,System.String)
+  commentId: M:AppTest.CommandsTests.MoveToCommandTests.CheckParameters_NonIntegerValues_ThrowsCommandException(System.String,System.String)
+  id: CheckParameters_NonIntegerValues_ThrowsCommandException(System.String,System.String)
+  parent: AppTest.CommandsTests.MoveToCommandTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_NonIntegerValues_ThrowsCommandException(string, string)
+  nameWithType: MoveToCommandTests.CheckParameters_NonIntegerValues_ThrowsCommandException(string, string)
+  fullName: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_NonIntegerValues_ThrowsCommandException(string, string)
+  type: Method
+  source:
+    remote:
+      path: AppTest/CommandsTests/MoveToCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: CheckParameters_NonIntegerValues_ThrowsCommandException
+    path: ../AppTest/CommandsTests/MoveToCommandTests.cs
+    startLine: 88
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  summary: Ensures that non-integer parameter values cause a <xref href="BOOSE.CommandException" data-throw-if-not-resolved="false"></xref> to be thrown.
+  example: []
+  syntax:
+    content: >-
+      [DataTestMethod]
+
+      [DataRow(new object?[] { "", "1" })]
+
+      [DataRow(new object?[] { "abc", "2" })]
+
+      [DataRow(new object?[] { "1", "xyz" })]
+
+      [DataRow(new object?[] { "1,2", "3" })]
+
+      public void CheckParameters_NonIntegerValues_ThrowsCommandException(string a, string b)
+    parameters:
+    - id: a
+      type: System.String
+      description: The first input value.
+    - id: b
+      type: System.String
+      description: The second input value.
+    content.vb: >-
+      <DataTestMethod>
+
+      <DataRow(New Object() { "", "1" })>
+
+      <DataRow(New Object() { "abc", "2" })>
+
+      <DataRow(New Object() { "1", "xyz" })>
+
+      <DataRow(New Object() { "1,2", "3" })>
+
+      Public Sub CheckParameters_NonIntegerValues_ThrowsCommandException(a As String, b As String)
+  overload: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_NonIntegerValues_ThrowsCommandException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.DataTestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.DataTestMethodAttribute.#ctor
+    arguments: []
+  nameWithType.vb: MoveToCommandTests.CheckParameters_NonIntegerValues_ThrowsCommandException(String, String)
+  fullName.vb: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_NonIntegerValues_ThrowsCommandException(String, String)
+  name.vb: CheckParameters_NonIntegerValues_ThrowsCommandException(String, String)
+- uid: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_Null_ThrowsCommandException
+  commentId: M:AppTest.CommandsTests.MoveToCommandTests.CheckParameters_Null_ThrowsCommandException
+  id: CheckParameters_Null_ThrowsCommandException
+  parent: AppTest.CommandsTests.MoveToCommandTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_Null_ThrowsCommandException()
+  nameWithType: MoveToCommandTests.CheckParameters_Null_ThrowsCommandException()
+  fullName: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_Null_ThrowsCommandException()
+  type: Method
+  source:
+    remote:
+      path: AppTest/CommandsTests/MoveToCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: CheckParameters_Null_ThrowsCommandException
+    path: ../AppTest/CommandsTests/MoveToCommandTests.cs
+    startLine: 102
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  summary: Ensures that a null parameter array causes a <xref href="BOOSE.CommandException" data-throw-if-not-resolved="false"></xref> to be thrown.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckParameters_Null_ThrowsCommandException()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckParameters_Null_ThrowsCommandException()
+  overload: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_Null_ThrowsCommandException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.CommandsTests.MoveToCommandTests.Execute_WithoutCanvas_ThrowsCommandException
+  commentId: M:AppTest.CommandsTests.MoveToCommandTests.Execute_WithoutCanvas_ThrowsCommandException
+  id: Execute_WithoutCanvas_ThrowsCommandException
+  parent: AppTest.CommandsTests.MoveToCommandTests
+  langs:
+  - csharp
+  - vb
+  name: Execute_WithoutCanvas_ThrowsCommandException()
+  nameWithType: MoveToCommandTests.Execute_WithoutCanvas_ThrowsCommandException()
+  fullName: AppTest.CommandsTests.MoveToCommandTests.Execute_WithoutCanvas_ThrowsCommandException()
+  type: Method
+  source:
+    remote:
+      path: AppTest/CommandsTests/MoveToCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Execute_WithoutCanvas_ThrowsCommandException
+    path: ../AppTest/CommandsTests/MoveToCommandTests.cs
+    startLine: 112
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  summary: Ensures that executing the command without a valid canvas throws a <xref href="BOOSE.CommandException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Execute_WithoutCanvas_ThrowsCommandException()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Execute_WithoutCanvas_ThrowsCommandException()
+  overload: AppTest.CommandsTests.MoveToCommandTests.Execute_WithoutCanvas_ThrowsCommandException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: BOOSEGraphicsEnvironment.Commands.MoveToCommand
+  commentId: T:BOOSEGraphicsEnvironment.Commands.MoveToCommand
+  href: BOOSEGraphicsEnvironment.Commands.MoveToCommand.html
+  name: MoveToCommand
+  nameWithType: MoveToCommand
+  fullName: BOOSEGraphicsEnvironment.Commands.MoveToCommand
+- uid: AppTest.CommandsTests
+  commentId: N:AppTest.CommandsTests
+  href: AppTest.html
+  name: AppTest.CommandsTests
+  nameWithType: AppTest.CommandsTests
+  fullName: AppTest.CommandsTests
+  spec.csharp:
+  - uid: AppTest
+    name: AppTest
+    href: AppTest.html
+  - name: .
+  - uid: AppTest.CommandsTests
+    name: CommandsTests
+    href: AppTest.CommandsTests.html
+  spec.vb:
+  - uid: AppTest
+    name: AppTest
+    href: AppTest.html
+  - name: .
+  - uid: AppTest.CommandsTests
+    name: CommandsTests
+    href: AppTest.CommandsTests.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AppTest.CommandsTests.MoveToCommandTests.Constructor_Default_DoesNotThrowAndPositionsAreZero*
+  commentId: Overload:AppTest.CommandsTests.MoveToCommandTests.Constructor_Default_DoesNotThrowAndPositionsAreZero
+  href: AppTest.CommandsTests.MoveToCommandTests.html#AppTest_CommandsTests_MoveToCommandTests_Constructor_Default_DoesNotThrowAndPositionsAreZero
+  name: Constructor_Default_DoesNotThrowAndPositionsAreZero
+  nameWithType: MoveToCommandTests.Constructor_Default_DoesNotThrowAndPositionsAreZero
+  fullName: AppTest.CommandsTests.MoveToCommandTests.Constructor_Default_DoesNotThrowAndPositionsAreZero
+- uid: AppTest.CommandsTests.MoveToCommandTests.Constructor_WithCanvasAndPositions_SetsProperties*
+  commentId: Overload:AppTest.CommandsTests.MoveToCommandTests.Constructor_WithCanvasAndPositions_SetsProperties
+  href: AppTest.CommandsTests.MoveToCommandTests.html#AppTest_CommandsTests_MoveToCommandTests_Constructor_WithCanvasAndPositions_SetsProperties
+  name: Constructor_WithCanvasAndPositions_SetsProperties
+  nameWithType: MoveToCommandTests.Constructor_WithCanvasAndPositions_SetsProperties
+  fullName: AppTest.CommandsTests.MoveToCommandTests.Constructor_WithCanvasAndPositions_SetsProperties
+- uid: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_ValidIntegers_SetsXAndY*
+  commentId: Overload:AppTest.CommandsTests.MoveToCommandTests.CheckParameters_ValidIntegers_SetsXAndY
+  href: AppTest.CommandsTests.MoveToCommandTests.html#AppTest_CommandsTests_MoveToCommandTests_CheckParameters_ValidIntegers_SetsXAndY
+  name: CheckParameters_ValidIntegers_SetsXAndY
+  nameWithType: MoveToCommandTests.CheckParameters_ValidIntegers_SetsXAndY
+  fullName: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_ValidIntegers_SetsXAndY
+- uid: BOOSE.CommandException
+  commentId: T:BOOSE.CommandException
+  isExternal: true
+  name: CommandException
+  nameWithType: CommandException
+  fullName: BOOSE.CommandException
+- uid: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_WrongParameterCount_ThrowsCommandException*
+  commentId: Overload:AppTest.CommandsTests.MoveToCommandTests.CheckParameters_WrongParameterCount_ThrowsCommandException
+  href: AppTest.CommandsTests.MoveToCommandTests.html#AppTest_CommandsTests_MoveToCommandTests_CheckParameters_WrongParameterCount_ThrowsCommandException
+  name: CheckParameters_WrongParameterCount_ThrowsCommandException
+  nameWithType: MoveToCommandTests.CheckParameters_WrongParameterCount_ThrowsCommandException
+  fullName: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_WrongParameterCount_ThrowsCommandException
+- uid: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_NonIntegerValues_ThrowsCommandException*
+  commentId: Overload:AppTest.CommandsTests.MoveToCommandTests.CheckParameters_NonIntegerValues_ThrowsCommandException
+  href: AppTest.CommandsTests.MoveToCommandTests.html#AppTest_CommandsTests_MoveToCommandTests_CheckParameters_NonIntegerValues_ThrowsCommandException_System_String_System_String_
+  name: CheckParameters_NonIntegerValues_ThrowsCommandException
+  nameWithType: MoveToCommandTests.CheckParameters_NonIntegerValues_ThrowsCommandException
+  fullName: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_NonIntegerValues_ThrowsCommandException
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_Null_ThrowsCommandException*
+  commentId: Overload:AppTest.CommandsTests.MoveToCommandTests.CheckParameters_Null_ThrowsCommandException
+  href: AppTest.CommandsTests.MoveToCommandTests.html#AppTest_CommandsTests_MoveToCommandTests_CheckParameters_Null_ThrowsCommandException
+  name: CheckParameters_Null_ThrowsCommandException
+  nameWithType: MoveToCommandTests.CheckParameters_Null_ThrowsCommandException
+  fullName: AppTest.CommandsTests.MoveToCommandTests.CheckParameters_Null_ThrowsCommandException
+- uid: AppTest.CommandsTests.MoveToCommandTests.Execute_WithoutCanvas_ThrowsCommandException*
+  commentId: Overload:AppTest.CommandsTests.MoveToCommandTests.Execute_WithoutCanvas_ThrowsCommandException
+  href: AppTest.CommandsTests.MoveToCommandTests.html#AppTest_CommandsTests_MoveToCommandTests_Execute_WithoutCanvas_ThrowsCommandException
+  name: Execute_WithoutCanvas_ThrowsCommandException
+  nameWithType: MoveToCommandTests.Execute_WithoutCanvas_ThrowsCommandException
+  fullName: AppTest.CommandsTests.MoveToCommandTests.Execute_WithoutCanvas_ThrowsCommandException

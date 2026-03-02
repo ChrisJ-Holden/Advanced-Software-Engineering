@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: AppTest
+  commentId: N:AppTest
+  id: AppTest
+  children:
+  - AppTest.AppCanvasTests
+  - AppTest.AppCommandFactoryTests
+  - AppTest.AppFormTests
+  - AppTest.BitmapManagerTests
+  langs:
+  - csharp
+  - vb
+  name: AppTest
+  nameWithType: AppTest
+  fullName: AppTest
+  type: Namespace
+  assemblies:
+  - AppTest
+references:
+- uid: AppTest.AppCanvasTests
+  commentId: T:AppTest.AppCanvasTests
+  href: AppTest.AppCanvasTests.html
+  name: AppCanvasTests
+  nameWithType: AppCanvasTests
+  fullName: AppTest.AppCanvasTests
+- uid: AppTest.AppCommandFactoryTests
+  commentId: T:AppTest.AppCommandFactoryTests
+  href: AppTest.AppCommandFactoryTests.html
+  name: AppCommandFactoryTests
+  nameWithType: AppCommandFactoryTests
+  fullName: AppTest.AppCommandFactoryTests
+- uid: AppTest.AppFormTests
+  commentId: T:AppTest.AppFormTests
+  href: AppTest.AppFormTests.html
+  name: AppFormTests
+  nameWithType: AppFormTests
+  fullName: AppTest.AppFormTests
+- uid: AppTest.BitmapManagerTests
+  commentId: T:AppTest.BitmapManagerTests
+  href: AppTest.BitmapManagerTests.html
+  name: BitmapManagerTests
+  nameWithType: BitmapManagerTests
+  fullName: AppTest.BitmapManagerTests

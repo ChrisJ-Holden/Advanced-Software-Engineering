@@ -1,0 +1,1728 @@
+### YamlMime:ManagedReference
+items:
+- uid: AppTest.AppCanvasTests
+  commentId: T:AppTest.AppCanvasTests
+  id: AppCanvasTests
+  parent: AppTest
+  children:
+  - AppTest.AppCanvasTests.Circle_DoesNotChangePosition
+  - AppTest.AppCanvasTests.Clear_DoesNotThrow
+  - AppTest.AppCanvasTests.ColourB
+  - AppTest.AppCanvasTests.ColourG
+  - AppTest.AppCanvasTests.ColourR
+  - AppTest.AppCanvasTests.Constructor_InitializesBitmapAndDefaultPosition
+  - AppTest.AppCanvasTests.Dispose_CanBeCalledSafely
+  - AppTest.AppCanvasTests.DrawTo_UpdatesPosition
+  - AppTest.AppCanvasTests.EndX
+  - AppTest.AppCanvasTests.EndY
+  - AppTest.AppCanvasTests.InitialHeight
+  - AppTest.AppCanvasTests.InitialWidth
+  - AppTest.AppCanvasTests.MoveTo_UpdatesPosition
+  - AppTest.AppCanvasTests.Radius
+  - AppTest.AppCanvasTests.RectHeight
+  - AppTest.AppCanvasTests.RectWidth
+  - AppTest.AppCanvasTests.Rect_DoesNotChangePosition
+  - AppTest.AppCanvasTests.Reset_SetsPositionToDefaults
+  - AppTest.AppCanvasTests.ResizedHeight
+  - AppTest.AppCanvasTests.ResizedWidth
+  - AppTest.AppCanvasTests.SetColour_UpdatesPenColourProperty
+  - AppTest.AppCanvasTests.Set_ResizesBitmap
+  - AppTest.AppCanvasTests.StartX
+  - AppTest.AppCanvasTests.StartY
+  - AppTest.AppCanvasTests.TriHeight
+  - AppTest.AppCanvasTests.TriWidth
+  - AppTest.AppCanvasTests.Tri_DoesNotChangePosition
+  - AppTest.AppCanvasTests.WriteText_DoesNotThrow
+  - AppTest.AppCanvasTests.WriteText_NullInput_DoesNotThrow
+  langs:
+  - csharp
+  - vb
+  name: AppCanvasTests
+  nameWithType: AppCanvasTests
+  fullName: AppTest.AppCanvasTests
+  type: Class
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: AppCanvasTests
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 8
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Contains unit tests for the <xref href="BOOSEGraphicsEnvironment.AppCanvas" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public sealed class AppCanvasTests
+    content.vb: >-
+      <TestClass>
+
+      Public NotInheritable Class AppCanvasTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.InitialWidth
+  commentId: F:AppTest.AppCanvasTests.InitialWidth
+  id: InitialWidth
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: InitialWidth
+  nameWithType: AppCanvasTests.InitialWidth
+  fullName: AppTest.AppCanvasTests.InitialWidth
+  type: Field
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: InitialWidth
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 11
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int InitialWidth = 20
+    return:
+      type: System.Int32
+    content.vb: Private Const InitialWidth As Integer = 20
+- uid: AppTest.AppCanvasTests.InitialHeight
+  commentId: F:AppTest.AppCanvasTests.InitialHeight
+  id: InitialHeight
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: InitialHeight
+  nameWithType: AppCanvasTests.InitialHeight
+  fullName: AppTest.AppCanvasTests.InitialHeight
+  type: Field
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: InitialHeight
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 12
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int InitialHeight = 10
+    return:
+      type: System.Int32
+    content.vb: Private Const InitialHeight As Integer = 10
+- uid: AppTest.AppCanvasTests.ResizedWidth
+  commentId: F:AppTest.AppCanvasTests.ResizedWidth
+  id: ResizedWidth
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: ResizedWidth
+  nameWithType: AppCanvasTests.ResizedWidth
+  fullName: AppTest.AppCanvasTests.ResizedWidth
+  type: Field
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: ResizedWidth
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 13
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int ResizedWidth = 30
+    return:
+      type: System.Int32
+    content.vb: Private Const ResizedWidth As Integer = 30
+- uid: AppTest.AppCanvasTests.ResizedHeight
+  commentId: F:AppTest.AppCanvasTests.ResizedHeight
+  id: ResizedHeight
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: ResizedHeight
+  nameWithType: AppCanvasTests.ResizedHeight
+  fullName: AppTest.AppCanvasTests.ResizedHeight
+  type: Field
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: ResizedHeight
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 14
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int ResizedHeight = 40
+    return:
+      type: System.Int32
+    content.vb: Private Const ResizedHeight As Integer = 40
+- uid: AppTest.AppCanvasTests.ColourR
+  commentId: F:AppTest.AppCanvasTests.ColourR
+  id: ColourR
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: ColourR
+  nameWithType: AppCanvasTests.ColourR
+  fullName: AppTest.AppCanvasTests.ColourR
+  type: Field
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: ColourR
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 16
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int ColourR = 7
+    return:
+      type: System.Int32
+    content.vb: Private Const ColourR As Integer = 7
+- uid: AppTest.AppCanvasTests.ColourG
+  commentId: F:AppTest.AppCanvasTests.ColourG
+  id: ColourG
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: ColourG
+  nameWithType: AppCanvasTests.ColourG
+  fullName: AppTest.AppCanvasTests.ColourG
+  type: Field
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: ColourG
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 17
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int ColourG = 11
+    return:
+      type: System.Int32
+    content.vb: Private Const ColourG As Integer = 11
+- uid: AppTest.AppCanvasTests.ColourB
+  commentId: F:AppTest.AppCanvasTests.ColourB
+  id: ColourB
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: ColourB
+  nameWithType: AppCanvasTests.ColourB
+  fullName: AppTest.AppCanvasTests.ColourB
+  type: Field
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: ColourB
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 18
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int ColourB = 13
+    return:
+      type: System.Int32
+    content.vb: Private Const ColourB As Integer = 13
+- uid: AppTest.AppCanvasTests.StartX
+  commentId: F:AppTest.AppCanvasTests.StartX
+  id: StartX
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: StartX
+  nameWithType: AppCanvasTests.StartX
+  fullName: AppTest.AppCanvasTests.StartX
+  type: Field
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: StartX
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 20
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int StartX = 1
+    return:
+      type: System.Int32
+    content.vb: Private Const StartX As Integer = 1
+- uid: AppTest.AppCanvasTests.StartY
+  commentId: F:AppTest.AppCanvasTests.StartY
+  id: StartY
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: StartY
+  nameWithType: AppCanvasTests.StartY
+  fullName: AppTest.AppCanvasTests.StartY
+  type: Field
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: StartY
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 21
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int StartY = 2
+    return:
+      type: System.Int32
+    content.vb: Private Const StartY As Integer = 2
+- uid: AppTest.AppCanvasTests.EndX
+  commentId: F:AppTest.AppCanvasTests.EndX
+  id: EndX
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: EndX
+  nameWithType: AppCanvasTests.EndX
+  fullName: AppTest.AppCanvasTests.EndX
+  type: Field
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: EndX
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 22
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int EndX = 9
+    return:
+      type: System.Int32
+    content.vb: Private Const EndX As Integer = 9
+- uid: AppTest.AppCanvasTests.EndY
+  commentId: F:AppTest.AppCanvasTests.EndY
+  id: EndY
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: EndY
+  nameWithType: AppCanvasTests.EndY
+  fullName: AppTest.AppCanvasTests.EndY
+  type: Field
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: EndY
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 23
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int EndY = 12
+    return:
+      type: System.Int32
+    content.vb: Private Const EndY As Integer = 12
+- uid: AppTest.AppCanvasTests.Radius
+  commentId: F:AppTest.AppCanvasTests.Radius
+  id: Radius
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Radius
+  nameWithType: AppCanvasTests.Radius
+  fullName: AppTest.AppCanvasTests.Radius
+  type: Field
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Radius
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 25
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int Radius = 6
+    return:
+      type: System.Int32
+    content.vb: Private Const Radius As Integer = 6
+- uid: AppTest.AppCanvasTests.RectWidth
+  commentId: F:AppTest.AppCanvasTests.RectWidth
+  id: RectWidth
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: RectWidth
+  nameWithType: AppCanvasTests.RectWidth
+  fullName: AppTest.AppCanvasTests.RectWidth
+  type: Field
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: RectWidth
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 26
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int RectWidth = 8
+    return:
+      type: System.Int32
+    content.vb: Private Const RectWidth As Integer = 8
+- uid: AppTest.AppCanvasTests.RectHeight
+  commentId: F:AppTest.AppCanvasTests.RectHeight
+  id: RectHeight
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: RectHeight
+  nameWithType: AppCanvasTests.RectHeight
+  fullName: AppTest.AppCanvasTests.RectHeight
+  type: Field
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: RectHeight
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 27
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int RectHeight = 5
+    return:
+      type: System.Int32
+    content.vb: Private Const RectHeight As Integer = 5
+- uid: AppTest.AppCanvasTests.TriWidth
+  commentId: F:AppTest.AppCanvasTests.TriWidth
+  id: TriWidth
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TriWidth
+  nameWithType: AppCanvasTests.TriWidth
+  fullName: AppTest.AppCanvasTests.TriWidth
+  type: Field
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: TriWidth
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 28
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int TriWidth = 14
+    return:
+      type: System.Int32
+    content.vb: Private Const TriWidth As Integer = 14
+- uid: AppTest.AppCanvasTests.TriHeight
+  commentId: F:AppTest.AppCanvasTests.TriHeight
+  id: TriHeight
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TriHeight
+  nameWithType: AppCanvasTests.TriHeight
+  fullName: AppTest.AppCanvasTests.TriHeight
+  type: Field
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: TriHeight
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 29
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private const int TriHeight = 9
+    return:
+      type: System.Int32
+    content.vb: Private Const TriHeight As Integer = 9
+- uid: AppTest.AppCanvasTests.Constructor_InitializesBitmapAndDefaultPosition
+  commentId: M:AppTest.AppCanvasTests.Constructor_InitializesBitmapAndDefaultPosition
+  id: Constructor_InitializesBitmapAndDefaultPosition
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Constructor_InitializesBitmapAndDefaultPosition()
+  nameWithType: AppCanvasTests.Constructor_InitializesBitmapAndDefaultPosition()
+  fullName: AppTest.AppCanvasTests.Constructor_InitializesBitmapAndDefaultPosition()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Constructor_InitializesBitmapAndDefaultPosition
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 34
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Verifies that the constructor initializes the bitmap and default positions.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Constructor_InitializesBitmapAndDefaultPosition()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Constructor_InitializesBitmapAndDefaultPosition()
+  overload: AppTest.AppCanvasTests.Constructor_InitializesBitmapAndDefaultPosition*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Set_ResizesBitmap
+  commentId: M:AppTest.AppCanvasTests.Set_ResizesBitmap
+  id: Set_ResizesBitmap
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Set_ResizesBitmap()
+  nameWithType: AppCanvasTests.Set_ResizesBitmap()
+  fullName: AppTest.AppCanvasTests.Set_ResizesBitmap()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Set_ResizesBitmap
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 51
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Ensures that <xref href="BOOSEGraphicsEnvironment.AppCanvas.Set(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> resizes the bitmap correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Set_ResizesBitmap()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Set_ResizesBitmap()
+  overload: AppTest.AppCanvasTests.Set_ResizesBitmap*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.SetColour_UpdatesPenColourProperty
+  commentId: M:AppTest.AppCanvasTests.SetColour_UpdatesPenColourProperty
+  id: SetColour_UpdatesPenColourProperty
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: SetColour_UpdatesPenColourProperty()
+  nameWithType: AppCanvasTests.SetColour_UpdatesPenColourProperty()
+  fullName: AppTest.AppCanvasTests.SetColour_UpdatesPenColourProperty()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: SetColour_UpdatesPenColourProperty
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 66
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Ensures that <xref href="BOOSEGraphicsEnvironment.AppCanvas.SetColour(System.Int32%2cSystem.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> updates the pen colour property.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void SetColour_UpdatesPenColourProperty()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub SetColour_UpdatesPenColourProperty()
+  overload: AppTest.AppCanvasTests.SetColour_UpdatesPenColourProperty*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.MoveTo_UpdatesPosition
+  commentId: M:AppTest.AppCanvasTests.MoveTo_UpdatesPosition
+  id: MoveTo_UpdatesPosition
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: MoveTo_UpdatesPosition()
+  nameWithType: AppCanvasTests.MoveTo_UpdatesPosition()
+  fullName: AppTest.AppCanvasTests.MoveTo_UpdatesPosition()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: MoveTo_UpdatesPosition
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 81
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Verifies that <xref href="BOOSEGraphicsEnvironment.AppCanvas.MoveTo(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> updates the position correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void MoveTo_UpdatesPosition()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub MoveTo_UpdatesPosition()
+  overload: AppTest.AppCanvasTests.MoveTo_UpdatesPosition*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.DrawTo_UpdatesPosition
+  commentId: M:AppTest.AppCanvasTests.DrawTo_UpdatesPosition
+  id: DrawTo_UpdatesPosition
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: DrawTo_UpdatesPosition()
+  nameWithType: AppCanvasTests.DrawTo_UpdatesPosition()
+  fullName: AppTest.AppCanvasTests.DrawTo_UpdatesPosition()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: DrawTo_UpdatesPosition
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 94
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Verifies that <xref href="BOOSEGraphicsEnvironment.AppCanvas.DrawTo(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> updates the position correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void DrawTo_UpdatesPosition()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub DrawTo_UpdatesPosition()
+  overload: AppTest.AppCanvasTests.DrawTo_UpdatesPosition*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Reset_SetsPositionToDefaults
+  commentId: M:AppTest.AppCanvasTests.Reset_SetsPositionToDefaults
+  id: Reset_SetsPositionToDefaults
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Reset_SetsPositionToDefaults()
+  nameWithType: AppCanvasTests.Reset_SetsPositionToDefaults()
+  fullName: AppTest.AppCanvasTests.Reset_SetsPositionToDefaults()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Reset_SetsPositionToDefaults
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 108
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Ensures that <xref href="BOOSEGraphicsEnvironment.AppCanvas.Reset" data-throw-if-not-resolved="false"></xref> sets the position to default (0,0).
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Reset_SetsPositionToDefaults()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Reset_SetsPositionToDefaults()
+  overload: AppTest.AppCanvasTests.Reset_SetsPositionToDefaults*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Circle_DoesNotChangePosition
+  commentId: M:AppTest.AppCanvasTests.Circle_DoesNotChangePosition
+  id: Circle_DoesNotChangePosition
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Circle_DoesNotChangePosition()
+  nameWithType: AppCanvasTests.Circle_DoesNotChangePosition()
+  fullName: AppTest.AppCanvasTests.Circle_DoesNotChangePosition()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Circle_DoesNotChangePosition
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 122
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Verifies that <xref href="BOOSEGraphicsEnvironment.AppCanvas.Circle(System.Int32%2cSystem.Boolean)" data-throw-if-not-resolved="false"></xref> does not change the current position.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Circle_DoesNotChangePosition()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Circle_DoesNotChangePosition()
+  overload: AppTest.AppCanvasTests.Circle_DoesNotChangePosition*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Rect_DoesNotChangePosition
+  commentId: M:AppTest.AppCanvasTests.Rect_DoesNotChangePosition
+  id: Rect_DoesNotChangePosition
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Rect_DoesNotChangePosition()
+  nameWithType: AppCanvasTests.Rect_DoesNotChangePosition()
+  fullName: AppTest.AppCanvasTests.Rect_DoesNotChangePosition()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Rect_DoesNotChangePosition
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 136
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Verifies that <xref href="BOOSEGraphicsEnvironment.AppCanvas.Rect(System.Int32%2cSystem.Int32%2cSystem.Boolean)" data-throw-if-not-resolved="false"></xref> does not change the current position.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Rect_DoesNotChangePosition()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Rect_DoesNotChangePosition()
+  overload: AppTest.AppCanvasTests.Rect_DoesNotChangePosition*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Tri_DoesNotChangePosition
+  commentId: M:AppTest.AppCanvasTests.Tri_DoesNotChangePosition
+  id: Tri_DoesNotChangePosition
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Tri_DoesNotChangePosition()
+  nameWithType: AppCanvasTests.Tri_DoesNotChangePosition()
+  fullName: AppTest.AppCanvasTests.Tri_DoesNotChangePosition()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Tri_DoesNotChangePosition
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 150
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Verifies that <xref href="BOOSEGraphicsEnvironment.AppCanvas.Tri(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> does not change the current position.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Tri_DoesNotChangePosition()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Tri_DoesNotChangePosition()
+  overload: AppTest.AppCanvasTests.Tri_DoesNotChangePosition*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.WriteText_DoesNotThrow
+  commentId: M:AppTest.AppCanvasTests.WriteText_DoesNotThrow
+  id: WriteText_DoesNotThrow
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: WriteText_DoesNotThrow()
+  nameWithType: AppCanvasTests.WriteText_DoesNotThrow()
+  fullName: AppTest.AppCanvasTests.WriteText_DoesNotThrow()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: WriteText_DoesNotThrow
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 164
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Ensures that <xref href="BOOSEGraphicsEnvironment.AppCanvas.WriteText(System.String)" data-throw-if-not-resolved="false"></xref> executes without throwing an exception.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void WriteText_DoesNotThrow()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub WriteText_DoesNotThrow()
+  overload: AppTest.AppCanvasTests.WriteText_DoesNotThrow*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.WriteText_NullInput_DoesNotThrow
+  commentId: M:AppTest.AppCanvasTests.WriteText_NullInput_DoesNotThrow
+  id: WriteText_NullInput_DoesNotThrow
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: WriteText_NullInput_DoesNotThrow()
+  nameWithType: AppCanvasTests.WriteText_NullInput_DoesNotThrow()
+  fullName: AppTest.AppCanvasTests.WriteText_NullInput_DoesNotThrow()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: WriteText_NullInput_DoesNotThrow
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 174
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Ensures that <xref href="BOOSEGraphicsEnvironment.AppCanvas.WriteText(System.String)" data-throw-if-not-resolved="false"></xref> can handle null input without throwing.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void WriteText_NullInput_DoesNotThrow()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub WriteText_NullInput_DoesNotThrow()
+  overload: AppTest.AppCanvasTests.WriteText_NullInput_DoesNotThrow*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Clear_DoesNotThrow
+  commentId: M:AppTest.AppCanvasTests.Clear_DoesNotThrow
+  id: Clear_DoesNotThrow
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Clear_DoesNotThrow()
+  nameWithType: AppCanvasTests.Clear_DoesNotThrow()
+  fullName: AppTest.AppCanvasTests.Clear_DoesNotThrow()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Clear_DoesNotThrow
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 184
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Verifies that <xref href="BOOSEGraphicsEnvironment.AppCanvas.Clear" data-throw-if-not-resolved="false"></xref> executes without throwing an exception.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Clear_DoesNotThrow()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Clear_DoesNotThrow()
+  overload: AppTest.AppCanvasTests.Clear_DoesNotThrow*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppCanvasTests.Dispose_CanBeCalledSafely
+  commentId: M:AppTest.AppCanvasTests.Dispose_CanBeCalledSafely
+  id: Dispose_CanBeCalledSafely
+  parent: AppTest.AppCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Dispose_CanBeCalledSafely()
+  nameWithType: AppCanvasTests.Dispose_CanBeCalledSafely()
+  fullName: AppTest.AppCanvasTests.Dispose_CanBeCalledSafely()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppCanvasTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Dispose_CanBeCalledSafely
+    path: ../AppTest/AppCanvasTests.cs
+    startLine: 194
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Ensures that <xref href="BOOSEGraphicsEnvironment.AppCanvas.Dispose" data-throw-if-not-resolved="false"></xref> can be called safely multiple times.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Dispose_CanBeCalledSafely()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Dispose_CanBeCalledSafely()
+  overload: AppTest.AppCanvasTests.Dispose_CanBeCalledSafely*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: BOOSEGraphicsEnvironment.AppCanvas
+  commentId: T:BOOSEGraphicsEnvironment.AppCanvas
+  parent: BOOSEGraphicsEnvironment
+  href: BOOSEGraphicsEnvironment.AppCanvas.html
+  name: AppCanvas
+  nameWithType: AppCanvas
+  fullName: BOOSEGraphicsEnvironment.AppCanvas
+- uid: AppTest
+  commentId: N:AppTest
+  href: AppTest.html
+  name: AppTest
+  nameWithType: AppTest
+  fullName: AppTest
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: BOOSEGraphicsEnvironment
+  commentId: N:BOOSEGraphicsEnvironment
+  href: BOOSEGraphicsEnvironment.html
+  name: BOOSEGraphicsEnvironment
+  nameWithType: BOOSEGraphicsEnvironment
+  fullName: BOOSEGraphicsEnvironment
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: AppTest.AppCanvasTests.Constructor_InitializesBitmapAndDefaultPosition*
+  commentId: Overload:AppTest.AppCanvasTests.Constructor_InitializesBitmapAndDefaultPosition
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Constructor_InitializesBitmapAndDefaultPosition
+  name: Constructor_InitializesBitmapAndDefaultPosition
+  nameWithType: AppCanvasTests.Constructor_InitializesBitmapAndDefaultPosition
+  fullName: AppTest.AppCanvasTests.Constructor_InitializesBitmapAndDefaultPosition
+- uid: BOOSEGraphicsEnvironment.AppCanvas.Set(System.Int32,System.Int32)
+  commentId: M:BOOSEGraphicsEnvironment.AppCanvas.Set(System.Int32,System.Int32)
+  isExternal: true
+  href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Set_System_Int32_System_Int32_
+  name: Set(int, int)
+  nameWithType: AppCanvas.Set(int, int)
+  fullName: BOOSEGraphicsEnvironment.AppCanvas.Set(int, int)
+  nameWithType.vb: AppCanvas.Set(Integer, Integer)
+  fullName.vb: BOOSEGraphicsEnvironment.AppCanvas.Set(Integer, Integer)
+  name.vb: Set(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.Set(System.Int32,System.Int32)
+    name: Set
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Set_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.Set(System.Int32,System.Int32)
+    name: Set
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Set_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: AppTest.AppCanvasTests.Set_ResizesBitmap*
+  commentId: Overload:AppTest.AppCanvasTests.Set_ResizesBitmap
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Set_ResizesBitmap
+  name: Set_ResizesBitmap
+  nameWithType: AppCanvasTests.Set_ResizesBitmap
+  fullName: AppTest.AppCanvasTests.Set_ResizesBitmap
+- uid: BOOSEGraphicsEnvironment.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  commentId: M:BOOSEGraphicsEnvironment.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  isExternal: true
+  href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  name: SetColour(int, int, int)
+  nameWithType: AppCanvas.SetColour(int, int, int)
+  fullName: BOOSEGraphicsEnvironment.AppCanvas.SetColour(int, int, int)
+  nameWithType.vb: AppCanvas.SetColour(Integer, Integer, Integer)
+  fullName.vb: BOOSEGraphicsEnvironment.AppCanvas.SetColour(Integer, Integer, Integer)
+  name.vb: SetColour(Integer, Integer, Integer)
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+    name: SetColour
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+    name: SetColour
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: AppTest.AppCanvasTests.SetColour_UpdatesPenColourProperty*
+  commentId: Overload:AppTest.AppCanvasTests.SetColour_UpdatesPenColourProperty
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_SetColour_UpdatesPenColourProperty
+  name: SetColour_UpdatesPenColourProperty
+  nameWithType: AppCanvasTests.SetColour_UpdatesPenColourProperty
+  fullName: AppTest.AppCanvasTests.SetColour_UpdatesPenColourProperty
+- uid: BOOSEGraphicsEnvironment.AppCanvas.MoveTo(System.Int32,System.Int32)
+  commentId: M:BOOSEGraphicsEnvironment.AppCanvas.MoveTo(System.Int32,System.Int32)
+  isExternal: true
+  href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_MoveTo_System_Int32_System_Int32_
+  name: MoveTo(int, int)
+  nameWithType: AppCanvas.MoveTo(int, int)
+  fullName: BOOSEGraphicsEnvironment.AppCanvas.MoveTo(int, int)
+  nameWithType.vb: AppCanvas.MoveTo(Integer, Integer)
+  fullName.vb: BOOSEGraphicsEnvironment.AppCanvas.MoveTo(Integer, Integer)
+  name.vb: MoveTo(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.MoveTo(System.Int32,System.Int32)
+    name: MoveTo
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_MoveTo_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.MoveTo(System.Int32,System.Int32)
+    name: MoveTo
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_MoveTo_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: AppTest.AppCanvasTests.MoveTo_UpdatesPosition*
+  commentId: Overload:AppTest.AppCanvasTests.MoveTo_UpdatesPosition
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_MoveTo_UpdatesPosition
+  name: MoveTo_UpdatesPosition
+  nameWithType: AppCanvasTests.MoveTo_UpdatesPosition
+  fullName: AppTest.AppCanvasTests.MoveTo_UpdatesPosition
+- uid: BOOSEGraphicsEnvironment.AppCanvas.DrawTo(System.Int32,System.Int32)
+  commentId: M:BOOSEGraphicsEnvironment.AppCanvas.DrawTo(System.Int32,System.Int32)
+  isExternal: true
+  href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_DrawTo_System_Int32_System_Int32_
+  name: DrawTo(int, int)
+  nameWithType: AppCanvas.DrawTo(int, int)
+  fullName: BOOSEGraphicsEnvironment.AppCanvas.DrawTo(int, int)
+  nameWithType.vb: AppCanvas.DrawTo(Integer, Integer)
+  fullName.vb: BOOSEGraphicsEnvironment.AppCanvas.DrawTo(Integer, Integer)
+  name.vb: DrawTo(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.DrawTo(System.Int32,System.Int32)
+    name: DrawTo
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_DrawTo_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.DrawTo(System.Int32,System.Int32)
+    name: DrawTo
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_DrawTo_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: AppTest.AppCanvasTests.DrawTo_UpdatesPosition*
+  commentId: Overload:AppTest.AppCanvasTests.DrawTo_UpdatesPosition
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_DrawTo_UpdatesPosition
+  name: DrawTo_UpdatesPosition
+  nameWithType: AppCanvasTests.DrawTo_UpdatesPosition
+  fullName: AppTest.AppCanvasTests.DrawTo_UpdatesPosition
+- uid: BOOSEGraphicsEnvironment.AppCanvas.Reset
+  commentId: M:BOOSEGraphicsEnvironment.AppCanvas.Reset
+  href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Reset
+  name: Reset()
+  nameWithType: AppCanvas.Reset()
+  fullName: BOOSEGraphicsEnvironment.AppCanvas.Reset()
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.Reset
+    name: Reset
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Reset
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.Reset
+    name: Reset
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Reset
+  - name: (
+  - name: )
+- uid: AppTest.AppCanvasTests.Reset_SetsPositionToDefaults*
+  commentId: Overload:AppTest.AppCanvasTests.Reset_SetsPositionToDefaults
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Reset_SetsPositionToDefaults
+  name: Reset_SetsPositionToDefaults
+  nameWithType: AppCanvasTests.Reset_SetsPositionToDefaults
+  fullName: AppTest.AppCanvasTests.Reset_SetsPositionToDefaults
+- uid: BOOSEGraphicsEnvironment.AppCanvas.Circle(System.Int32,System.Boolean)
+  commentId: M:BOOSEGraphicsEnvironment.AppCanvas.Circle(System.Int32,System.Boolean)
+  isExternal: true
+  href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Circle_System_Int32_System_Boolean_
+  name: Circle(int, bool)
+  nameWithType: AppCanvas.Circle(int, bool)
+  fullName: BOOSEGraphicsEnvironment.AppCanvas.Circle(int, bool)
+  nameWithType.vb: AppCanvas.Circle(Integer, Boolean)
+  fullName.vb: BOOSEGraphicsEnvironment.AppCanvas.Circle(Integer, Boolean)
+  name.vb: Circle(Integer, Boolean)
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.Circle(System.Int32,System.Boolean)
+    name: Circle
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Circle_System_Int32_System_Boolean_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.Circle(System.Int32,System.Boolean)
+    name: Circle
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Circle_System_Int32_System_Boolean_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: AppTest.AppCanvasTests.Circle_DoesNotChangePosition*
+  commentId: Overload:AppTest.AppCanvasTests.Circle_DoesNotChangePosition
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Circle_DoesNotChangePosition
+  name: Circle_DoesNotChangePosition
+  nameWithType: AppCanvasTests.Circle_DoesNotChangePosition
+  fullName: AppTest.AppCanvasTests.Circle_DoesNotChangePosition
+- uid: BOOSEGraphicsEnvironment.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  commentId: M:BOOSEGraphicsEnvironment.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  isExternal: true
+  href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Rect_System_Int32_System_Int32_System_Boolean_
+  name: Rect(int, int, bool)
+  nameWithType: AppCanvas.Rect(int, int, bool)
+  fullName: BOOSEGraphicsEnvironment.AppCanvas.Rect(int, int, bool)
+  nameWithType.vb: AppCanvas.Rect(Integer, Integer, Boolean)
+  fullName.vb: BOOSEGraphicsEnvironment.AppCanvas.Rect(Integer, Integer, Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+    name: Rect
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Rect_System_Int32_System_Int32_System_Boolean_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+    name: Rect
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Rect_System_Int32_System_Int32_System_Boolean_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: AppTest.AppCanvasTests.Rect_DoesNotChangePosition*
+  commentId: Overload:AppTest.AppCanvasTests.Rect_DoesNotChangePosition
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Rect_DoesNotChangePosition
+  name: Rect_DoesNotChangePosition
+  nameWithType: AppCanvasTests.Rect_DoesNotChangePosition
+  fullName: AppTest.AppCanvasTests.Rect_DoesNotChangePosition
+- uid: BOOSEGraphicsEnvironment.AppCanvas.Tri(System.Int32,System.Int32)
+  commentId: M:BOOSEGraphicsEnvironment.AppCanvas.Tri(System.Int32,System.Int32)
+  isExternal: true
+  href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Tri_System_Int32_System_Int32_
+  name: Tri(int, int)
+  nameWithType: AppCanvas.Tri(int, int)
+  fullName: BOOSEGraphicsEnvironment.AppCanvas.Tri(int, int)
+  nameWithType.vb: AppCanvas.Tri(Integer, Integer)
+  fullName.vb: BOOSEGraphicsEnvironment.AppCanvas.Tri(Integer, Integer)
+  name.vb: Tri(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.Tri(System.Int32,System.Int32)
+    name: Tri
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Tri_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.Tri(System.Int32,System.Int32)
+    name: Tri
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Tri_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: AppTest.AppCanvasTests.Tri_DoesNotChangePosition*
+  commentId: Overload:AppTest.AppCanvasTests.Tri_DoesNotChangePosition
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Tri_DoesNotChangePosition
+  name: Tri_DoesNotChangePosition
+  nameWithType: AppCanvasTests.Tri_DoesNotChangePosition
+  fullName: AppTest.AppCanvasTests.Tri_DoesNotChangePosition
+- uid: BOOSEGraphicsEnvironment.AppCanvas.WriteText(System.String)
+  commentId: M:BOOSEGraphicsEnvironment.AppCanvas.WriteText(System.String)
+  isExternal: true
+  href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_WriteText_System_String_
+  name: WriteText(string)
+  nameWithType: AppCanvas.WriteText(string)
+  fullName: BOOSEGraphicsEnvironment.AppCanvas.WriteText(string)
+  nameWithType.vb: AppCanvas.WriteText(String)
+  fullName.vb: BOOSEGraphicsEnvironment.AppCanvas.WriteText(String)
+  name.vb: WriteText(String)
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.WriteText(System.String)
+    name: WriteText
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_WriteText_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.WriteText(System.String)
+    name: WriteText
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_WriteText_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: AppTest.AppCanvasTests.WriteText_DoesNotThrow*
+  commentId: Overload:AppTest.AppCanvasTests.WriteText_DoesNotThrow
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_WriteText_DoesNotThrow
+  name: WriteText_DoesNotThrow
+  nameWithType: AppCanvasTests.WriteText_DoesNotThrow
+  fullName: AppTest.AppCanvasTests.WriteText_DoesNotThrow
+- uid: AppTest.AppCanvasTests.WriteText_NullInput_DoesNotThrow*
+  commentId: Overload:AppTest.AppCanvasTests.WriteText_NullInput_DoesNotThrow
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_WriteText_NullInput_DoesNotThrow
+  name: WriteText_NullInput_DoesNotThrow
+  nameWithType: AppCanvasTests.WriteText_NullInput_DoesNotThrow
+  fullName: AppTest.AppCanvasTests.WriteText_NullInput_DoesNotThrow
+- uid: BOOSEGraphicsEnvironment.AppCanvas.Clear
+  commentId: M:BOOSEGraphicsEnvironment.AppCanvas.Clear
+  href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Clear
+  name: Clear()
+  nameWithType: AppCanvas.Clear()
+  fullName: BOOSEGraphicsEnvironment.AppCanvas.Clear()
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.Clear
+    name: Clear
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.Clear
+    name: Clear
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Clear
+  - name: (
+  - name: )
+- uid: AppTest.AppCanvasTests.Clear_DoesNotThrow*
+  commentId: Overload:AppTest.AppCanvasTests.Clear_DoesNotThrow
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Clear_DoesNotThrow
+  name: Clear_DoesNotThrow
+  nameWithType: AppCanvasTests.Clear_DoesNotThrow
+  fullName: AppTest.AppCanvasTests.Clear_DoesNotThrow
+- uid: BOOSEGraphicsEnvironment.AppCanvas.Dispose
+  commentId: M:BOOSEGraphicsEnvironment.AppCanvas.Dispose
+  href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Dispose
+  name: Dispose()
+  nameWithType: AppCanvas.Dispose()
+  fullName: BOOSEGraphicsEnvironment.AppCanvas.Dispose()
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.Dispose
+    name: Dispose
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment.AppCanvas.Dispose
+    name: Dispose
+    href: BOOSEGraphicsEnvironment.AppCanvas.html#BOOSEGraphicsEnvironment_AppCanvas_Dispose
+  - name: (
+  - name: )
+- uid: AppTest.AppCanvasTests.Dispose_CanBeCalledSafely*
+  commentId: Overload:AppTest.AppCanvasTests.Dispose_CanBeCalledSafely
+  href: AppTest.AppCanvasTests.html#AppTest_AppCanvasTests_Dispose_CanBeCalledSafely
+  name: Dispose_CanBeCalledSafely
+  nameWithType: AppCanvasTests.Dispose_CanBeCalledSafely
+  fullName: AppTest.AppCanvasTests.Dispose_CanBeCalledSafely

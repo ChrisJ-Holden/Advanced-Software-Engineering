@@ -1,0 +1,67 @@
+### YamlMime:ManagedReference
+items:
+- uid: BOOSEGraphicsEnvironment.Shapes
+  commentId: N:BOOSEGraphicsEnvironment.Shapes
+  id: BOOSEGraphicsEnvironment.Shapes
+  children:
+  - BOOSEGraphicsEnvironment.Shapes.EllipseShape
+  - BOOSEGraphicsEnvironment.Shapes.PolygonShape
+  - BOOSEGraphicsEnvironment.Shapes.RectangleShape
+  - BOOSEGraphicsEnvironment.Shapes.Shape
+  langs:
+  - csharp
+  - vb
+  name: BOOSEGraphicsEnvironment.Shapes
+  nameWithType: BOOSEGraphicsEnvironment.Shapes
+  fullName: BOOSEGraphicsEnvironment.Shapes
+  type: Namespace
+  assemblies:
+  - BOOSEGraphicsEnvironment
+references:
+- uid: BOOSEGraphicsEnvironment.Shapes.EllipseShape
+  commentId: T:BOOSEGraphicsEnvironment.Shapes.EllipseShape
+  href: BOOSEGraphicsEnvironment.Shapes.EllipseShape.html
+  name: EllipseShape
+  nameWithType: EllipseShape
+  fullName: BOOSEGraphicsEnvironment.Shapes.EllipseShape
+- uid: BOOSEGraphicsEnvironment.Shapes.PolygonShape
+  commentId: T:BOOSEGraphicsEnvironment.Shapes.PolygonShape
+  href: BOOSEGraphicsEnvironment.Shapes.PolygonShape.html
+  name: PolygonShape
+  nameWithType: PolygonShape
+  fullName: BOOSEGraphicsEnvironment.Shapes.PolygonShape
+- uid: BOOSEGraphicsEnvironment.Shapes.RectangleShape
+  commentId: T:BOOSEGraphicsEnvironment.Shapes.RectangleShape
+  href: BOOSEGraphicsEnvironment.Shapes.RectangleShape.html
+  name: RectangleShape
+  nameWithType: RectangleShape
+  fullName: BOOSEGraphicsEnvironment.Shapes.RectangleShape
+- uid: BOOSEGraphicsEnvironment.Shapes.Shape
+  commentId: T:BOOSEGraphicsEnvironment.Shapes.Shape
+  parent: BOOSEGraphicsEnvironment.Shapes
+  href: BOOSEGraphicsEnvironment.Shapes.Shape.html
+  name: Shape
+  nameWithType: Shape
+  fullName: BOOSEGraphicsEnvironment.Shapes.Shape
+- uid: BOOSEGraphicsEnvironment.Shapes
+  commentId: N:BOOSEGraphicsEnvironment.Shapes
+  href: BOOSEGraphicsEnvironment.html
+  name: BOOSEGraphicsEnvironment.Shapes
+  nameWithType: BOOSEGraphicsEnvironment.Shapes
+  fullName: BOOSEGraphicsEnvironment.Shapes
+  spec.csharp:
+  - uid: BOOSEGraphicsEnvironment
+    name: BOOSEGraphicsEnvironment
+    href: BOOSEGraphicsEnvironment.html
+  - name: .
+  - uid: BOOSEGraphicsEnvironment.Shapes
+    name: Shapes
+    href: BOOSEGraphicsEnvironment.Shapes.html
+  spec.vb:
+  - uid: BOOSEGraphicsEnvironment
+    name: BOOSEGraphicsEnvironment
+    href: BOOSEGraphicsEnvironment.html
+  - name: .
+  - uid: BOOSEGraphicsEnvironment.Shapes
+    name: Shapes
+    href: BOOSEGraphicsEnvironment.Shapes.html

@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: BOOSEGraphicsEnvironment.Commands
+  commentId: N:BOOSEGraphicsEnvironment.Commands
+  id: BOOSEGraphicsEnvironment.Commands
+  children:
+  - BOOSEGraphicsEnvironment.Commands.CircleCommand
+  - BOOSEGraphicsEnvironment.Commands.DrawToCommand
+  - BOOSEGraphicsEnvironment.Commands.MoveToCommand
+  - BOOSEGraphicsEnvironment.Commands.PenColourCommand
+  - BOOSEGraphicsEnvironment.Commands.RectCommand
+  - BOOSEGraphicsEnvironment.Commands.TriCommand
+  langs:
+  - csharp
+  - vb
+  name: BOOSEGraphicsEnvironment.Commands
+  nameWithType: BOOSEGraphicsEnvironment.Commands
+  fullName: BOOSEGraphicsEnvironment.Commands
+  type: Namespace
+  assemblies:
+  - BOOSEGraphicsEnvironment
+references:
+- uid: BOOSEGraphicsEnvironment.Commands.CircleCommand
+  commentId: T:BOOSEGraphicsEnvironment.Commands.CircleCommand
+  href: BOOSEGraphicsEnvironment.Commands.CircleCommand.html
+  name: CircleCommand
+  nameWithType: CircleCommand
+  fullName: BOOSEGraphicsEnvironment.Commands.CircleCommand
+- uid: BOOSEGraphicsEnvironment.Commands.DrawToCommand
+  commentId: T:BOOSEGraphicsEnvironment.Commands.DrawToCommand
+  href: BOOSEGraphicsEnvironment.Commands.DrawToCommand.html
+  name: DrawToCommand
+  nameWithType: DrawToCommand
+  fullName: BOOSEGraphicsEnvironment.Commands.DrawToCommand
+- uid: BOOSEGraphicsEnvironment.Commands.MoveToCommand
+  commentId: T:BOOSEGraphicsEnvironment.Commands.MoveToCommand
+  href: BOOSEGraphicsEnvironment.Commands.MoveToCommand.html
+  name: MoveToCommand
+  nameWithType: MoveToCommand
+  fullName: BOOSEGraphicsEnvironment.Commands.MoveToCommand
+- uid: BOOSEGraphicsEnvironment.Commands.PenColourCommand
+  commentId: T:BOOSEGraphicsEnvironment.Commands.PenColourCommand
+  href: BOOSEGraphicsEnvironment.Commands.PenColourCommand.html
+  name: PenColourCommand
+  nameWithType: PenColourCommand
+  fullName: BOOSEGraphicsEnvironment.Commands.PenColourCommand
+- uid: BOOSEGraphicsEnvironment.Commands.RectCommand
+  commentId: T:BOOSEGraphicsEnvironment.Commands.RectCommand
+  href: BOOSEGraphicsEnvironment.Commands.RectCommand.html
+  name: RectCommand
+  nameWithType: RectCommand
+  fullName: BOOSEGraphicsEnvironment.Commands.RectCommand
+- uid: BOOSEGraphicsEnvironment.Commands.TriCommand
+  commentId: T:BOOSEGraphicsEnvironment.Commands.TriCommand
+  href: BOOSEGraphicsEnvironment.Commands.TriCommand.html
+  name: TriCommand
+  nameWithType: TriCommand
+  fullName: BOOSEGraphicsEnvironment.Commands.TriCommand

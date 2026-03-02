@@ -1,0 +1,641 @@
+### YamlMime:ManagedReference
+items:
+- uid: AppTest.AppFormTests
+  commentId: T:AppTest.AppFormTests
+  id: AppFormTests
+  parent: AppTest
+  children:
+  - AppTest.AppFormTests.AppendCommandLog_AddsText
+  - AppTest.AppFormTests.Constructor_InitializesControls
+  - AppTest.AppFormTests.GetPrivateField(System.Object,System.String)
+  - AppTest.AppFormTests.GetPrivateMethod(System.Object,System.String)
+  - AppTest.AppFormTests.InstanceNonPublic
+  - AppTest.AppFormTests.RunButton_Click_MultipleMoveto_UpdatesCanvasPosition
+  - AppTest.AppFormTests.RunButton_Click_ShowsError_WhenCompilerOrRuntimeNull
+  langs:
+  - csharp
+  - vb
+  name: AppFormTests
+  nameWithType: AppFormTests
+  fullName: AppTest.AppFormTests
+  type: Class
+  source:
+    remote:
+      path: AppTest/AppFormTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: AppFormTests
+    path: ../AppTest/AppFormTests.cs
+    startLine: 9
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Contains unit tests for the <xref href="BOOSEGraphicsEnvironment.AppForm" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public sealed class AppFormTests
+    content.vb: >-
+      <TestClass>
+
+      Public NotInheritable Class AppFormTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppFormTests.InstanceNonPublic
+  commentId: P:AppTest.AppFormTests.InstanceNonPublic
+  id: InstanceNonPublic
+  parent: AppTest.AppFormTests
+  langs:
+  - csharp
+  - vb
+  name: InstanceNonPublic
+  nameWithType: AppFormTests.InstanceNonPublic
+  fullName: AppTest.AppFormTests.InstanceNonPublic
+  type: Property
+  source:
+    remote:
+      path: AppTest/AppFormTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: InstanceNonPublic
+    path: ../AppTest/AppFormTests.cs
+    startLine: 12
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  syntax:
+    content: private static BindingFlags InstanceNonPublic { get; }
+    parameters: []
+    return:
+      type: System.Reflection.BindingFlags
+    content.vb: Private Shared ReadOnly Property InstanceNonPublic As BindingFlags
+  overload: AppTest.AppFormTests.InstanceNonPublic*
+- uid: AppTest.AppFormTests.GetPrivateField(System.Object,System.String)
+  commentId: M:AppTest.AppFormTests.GetPrivateField(System.Object,System.String)
+  id: GetPrivateField(System.Object,System.String)
+  parent: AppTest.AppFormTests
+  langs:
+  - csharp
+  - vb
+  name: GetPrivateField(object, string)
+  nameWithType: AppFormTests.GetPrivateField(object, string)
+  fullName: AppTest.AppFormTests.GetPrivateField(object, string)
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppFormTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: GetPrivateField
+    path: ../AppTest/AppFormTests.cs
+    startLine: 22
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Helper method to get a private field value from an object.
+  example: []
+  syntax:
+    content: private object GetPrivateField(object obj, string fieldName)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object containing the field.
+    - id: fieldName
+      type: System.String
+      description: The name of the private field.
+    return:
+      type: System.Object
+      description: The value of the private field.
+    content.vb: Private Function GetPrivateField(obj As Object, fieldName As String) As Object
+  overload: AppTest.AppFormTests.GetPrivateField*
+  nameWithType.vb: AppFormTests.GetPrivateField(Object, String)
+  fullName.vb: AppTest.AppFormTests.GetPrivateField(Object, String)
+  name.vb: GetPrivateField(Object, String)
+- uid: AppTest.AppFormTests.GetPrivateMethod(System.Object,System.String)
+  commentId: M:AppTest.AppFormTests.GetPrivateMethod(System.Object,System.String)
+  id: GetPrivateMethod(System.Object,System.String)
+  parent: AppTest.AppFormTests
+  langs:
+  - csharp
+  - vb
+  name: GetPrivateMethod(object, string)
+  nameWithType: AppFormTests.GetPrivateMethod(object, string)
+  fullName: AppTest.AppFormTests.GetPrivateMethod(object, string)
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppFormTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: GetPrivateMethod
+    path: ../AppTest/AppFormTests.cs
+    startLine: 35
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Helper method to get a private method info from an object.
+  example: []
+  syntax:
+    content: private MethodInfo GetPrivateMethod(object obj, string methodName)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object containing the method.
+    - id: methodName
+      type: System.String
+      description: The name of the private method.
+    return:
+      type: System.Reflection.MethodInfo
+      description: The <xref href="System.Reflection.MethodInfo" data-throw-if-not-resolved="false"></xref> for the private method.
+    content.vb: Private Function GetPrivateMethod(obj As Object, methodName As String) As MethodInfo
+  overload: AppTest.AppFormTests.GetPrivateMethod*
+  nameWithType.vb: AppFormTests.GetPrivateMethod(Object, String)
+  fullName.vb: AppTest.AppFormTests.GetPrivateMethod(Object, String)
+  name.vb: GetPrivateMethod(Object, String)
+- uid: AppTest.AppFormTests.Constructor_InitializesControls
+  commentId: M:AppTest.AppFormTests.Constructor_InitializesControls
+  id: Constructor_InitializesControls
+  parent: AppTest.AppFormTests
+  langs:
+  - csharp
+  - vb
+  name: Constructor_InitializesControls()
+  nameWithType: AppFormTests.Constructor_InitializesControls()
+  fullName: AppTest.AppFormTests.Constructor_InitializesControls()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppFormTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Constructor_InitializesControls
+    path: ../AppTest/AppFormTests.cs
+    startLine: 43
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Verifies that the constructor initializes internal controls correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Constructor_InitializesControls()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Constructor_InitializesControls()
+  overload: AppTest.AppFormTests.Constructor_InitializesControls*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppFormTests.AppendCommandLog_AddsText
+  commentId: M:AppTest.AppFormTests.AppendCommandLog_AddsText
+  id: AppendCommandLog_AddsText
+  parent: AppTest.AppFormTests
+  langs:
+  - csharp
+  - vb
+  name: AppendCommandLog_AddsText()
+  nameWithType: AppFormTests.AppendCommandLog_AddsText()
+  fullName: AppTest.AppFormTests.AppendCommandLog_AddsText()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppFormTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: AppendCommandLog_AddsText
+    path: ../AppTest/AppFormTests.cs
+    startLine: 64
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Verifies that the private <code>AppendCommandLog</code> method correctly appends lines to the command log.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void AppendCommandLog_AddsText()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub AppendCommandLog_AddsText()
+  overload: AppTest.AppFormTests.AppendCommandLog_AddsText*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppFormTests.RunButton_Click_ShowsError_WhenCompilerOrRuntimeNull
+  commentId: M:AppTest.AppFormTests.RunButton_Click_ShowsError_WhenCompilerOrRuntimeNull
+  id: RunButton_Click_ShowsError_WhenCompilerOrRuntimeNull
+  parent: AppTest.AppFormTests
+  langs:
+  - csharp
+  - vb
+  name: RunButton_Click_ShowsError_WhenCompilerOrRuntimeNull()
+  nameWithType: AppFormTests.RunButton_Click_ShowsError_WhenCompilerOrRuntimeNull()
+  fullName: AppTest.AppFormTests.RunButton_Click_ShowsError_WhenCompilerOrRuntimeNull()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppFormTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: RunButton_Click_ShowsError_WhenCompilerOrRuntimeNull
+    path: ../AppTest/AppFormTests.cs
+    startLine: 82
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Ensures that clicking the Run button when the compiler or runtime is null writes an error to the log.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void RunButton_Click_ShowsError_WhenCompilerOrRuntimeNull()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub RunButton_Click_ShowsError_WhenCompilerOrRuntimeNull()
+  overload: AppTest.AppFormTests.RunButton_Click_ShowsError_WhenCompilerOrRuntimeNull*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: AppTest.AppFormTests.RunButton_Click_MultipleMoveto_UpdatesCanvasPosition
+  commentId: M:AppTest.AppFormTests.RunButton_Click_MultipleMoveto_UpdatesCanvasPosition
+  id: RunButton_Click_MultipleMoveto_UpdatesCanvasPosition
+  parent: AppTest.AppFormTests
+  langs:
+  - csharp
+  - vb
+  name: RunButton_Click_MultipleMoveto_UpdatesCanvasPosition()
+  nameWithType: AppFormTests.RunButton_Click_MultipleMoveto_UpdatesCanvasPosition()
+  fullName: AppTest.AppFormTests.RunButton_Click_MultipleMoveto_UpdatesCanvasPosition()
+  type: Method
+  source:
+    remote:
+      path: AppTest/AppFormTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: RunButton_Click_MultipleMoveto_UpdatesCanvasPosition
+    path: ../AppTest/AppFormTests.cs
+    startLine: 105
+  assemblies:
+  - AppTest
+  namespace: AppTest
+  summary: Verifies that executing multiple MoveTo commands via the Run button updates the canvas position correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void RunButton_Click_MultipleMoveto_UpdatesCanvasPosition()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub RunButton_Click_MultipleMoveto_UpdatesCanvasPosition()
+  overload: AppTest.AppFormTests.RunButton_Click_MultipleMoveto_UpdatesCanvasPosition*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: BOOSEGraphicsEnvironment.AppForm
+  commentId: T:BOOSEGraphicsEnvironment.AppForm
+  href: BOOSEGraphicsEnvironment.AppForm.html
+  name: AppForm
+  nameWithType: AppForm
+  fullName: BOOSEGraphicsEnvironment.AppForm
+- uid: AppTest
+  commentId: N:AppTest
+  href: AppTest.html
+  name: AppTest
+  nameWithType: AppTest
+  fullName: AppTest
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AppTest.AppFormTests.InstanceNonPublic*
+  commentId: Overload:AppTest.AppFormTests.InstanceNonPublic
+  href: AppTest.AppFormTests.html#AppTest_AppFormTests_InstanceNonPublic
+  name: InstanceNonPublic
+  nameWithType: AppFormTests.InstanceNonPublic
+  fullName: AppTest.AppFormTests.InstanceNonPublic
+- uid: System.Reflection.BindingFlags
+  commentId: T:System.Reflection.BindingFlags
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.bindingflags
+  name: BindingFlags
+  nameWithType: BindingFlags
+  fullName: System.Reflection.BindingFlags
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+- uid: AppTest.AppFormTests.GetPrivateField*
+  commentId: Overload:AppTest.AppFormTests.GetPrivateField
+  href: AppTest.AppFormTests.html#AppTest_AppFormTests_GetPrivateField_System_Object_System_String_
+  name: GetPrivateField
+  nameWithType: AppFormTests.GetPrivateField
+  fullName: AppTest.AppFormTests.GetPrivateField
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Reflection.MethodInfo
+  commentId: T:System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.methodinfo
+  name: MethodInfo
+  nameWithType: MethodInfo
+  fullName: System.Reflection.MethodInfo
+- uid: AppTest.AppFormTests.GetPrivateMethod*
+  commentId: Overload:AppTest.AppFormTests.GetPrivateMethod
+  href: AppTest.AppFormTests.html#AppTest_AppFormTests_GetPrivateMethod_System_Object_System_String_
+  name: GetPrivateMethod
+  nameWithType: AppFormTests.GetPrivateMethod
+  fullName: AppTest.AppFormTests.GetPrivateMethod
+- uid: AppTest.AppFormTests.Constructor_InitializesControls*
+  commentId: Overload:AppTest.AppFormTests.Constructor_InitializesControls
+  href: AppTest.AppFormTests.html#AppTest_AppFormTests_Constructor_InitializesControls
+  name: Constructor_InitializesControls
+  nameWithType: AppFormTests.Constructor_InitializesControls
+  fullName: AppTest.AppFormTests.Constructor_InitializesControls
+- uid: AppTest.AppFormTests.AppendCommandLog_AddsText*
+  commentId: Overload:AppTest.AppFormTests.AppendCommandLog_AddsText
+  href: AppTest.AppFormTests.html#AppTest_AppFormTests_AppendCommandLog_AddsText
+  name: AppendCommandLog_AddsText
+  nameWithType: AppFormTests.AppendCommandLog_AddsText
+  fullName: AppTest.AppFormTests.AppendCommandLog_AddsText
+- uid: AppTest.AppFormTests.RunButton_Click_ShowsError_WhenCompilerOrRuntimeNull*
+  commentId: Overload:AppTest.AppFormTests.RunButton_Click_ShowsError_WhenCompilerOrRuntimeNull
+  href: AppTest.AppFormTests.html#AppTest_AppFormTests_RunButton_Click_ShowsError_WhenCompilerOrRuntimeNull
+  name: RunButton_Click_ShowsError_WhenCompilerOrRuntimeNull
+  nameWithType: AppFormTests.RunButton_Click_ShowsError_WhenCompilerOrRuntimeNull
+  fullName: AppTest.AppFormTests.RunButton_Click_ShowsError_WhenCompilerOrRuntimeNull
+- uid: AppTest.AppFormTests.RunButton_Click_MultipleMoveto_UpdatesCanvasPosition*
+  commentId: Overload:AppTest.AppFormTests.RunButton_Click_MultipleMoveto_UpdatesCanvasPosition
+  href: AppTest.AppFormTests.html#AppTest_AppFormTests_RunButton_Click_MultipleMoveto_UpdatesCanvasPosition
+  name: RunButton_Click_MultipleMoveto_UpdatesCanvasPosition
+  nameWithType: AppFormTests.RunButton_Click_MultipleMoveto_UpdatesCanvasPosition
+  fullName: AppTest.AppFormTests.RunButton_Click_MultipleMoveto_UpdatesCanvasPosition

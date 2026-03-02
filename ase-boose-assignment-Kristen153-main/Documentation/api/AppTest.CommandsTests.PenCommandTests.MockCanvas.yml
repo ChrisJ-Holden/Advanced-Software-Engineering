@@ -1,0 +1,1055 @@
+### YamlMime:ManagedReference
+items:
+- uid: AppTest.CommandsTests.PenCommandTests.MockCanvas
+  commentId: T:AppTest.CommandsTests.PenCommandTests.MockCanvas
+  id: PenCommandTests.MockCanvas
+  parent: AppTest.CommandsTests
+  children:
+  - AppTest.CommandsTests.PenCommandTests.MockCanvas.LastB
+  - AppTest.CommandsTests.PenCommandTests.MockCanvas.LastG
+  - AppTest.CommandsTests.PenCommandTests.MockCanvas.LastR
+  - AppTest.CommandsTests.PenCommandTests.MockCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  - AppTest.CommandsTests.PenCommandTests.MockCanvas.SetColourCalled
+  langs:
+  - csharp
+  - vb
+  name: PenCommandTests.MockCanvas
+  nameWithType: PenCommandTests.MockCanvas
+  fullName: AppTest.CommandsTests.PenCommandTests.MockCanvas
+  type: Class
+  source:
+    remote:
+      path: AppTest/CommandsTests/PenCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: MockCanvas
+    path: ../AppTest/CommandsTests/PenCommandTests.cs
+    startLine: 14
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  summary: Mock implementation of the <xref href="BOOSE.Canvas" data-throw-if-not-resolved="false"></xref> class for testing purposes inside <xref href="AppTest.CommandsTests.PenCommandTests" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'private class PenCommandTests.MockCanvas : Canvas, ICanvas'
+    content.vb: Private Class PenCommandTests.MockCanvas Inherits Canvas Implements ICanvas
+  inheritance:
+  - System.Object
+  - BOOSE.Canvas
+  implements:
+  - BOOSE.ICanvas
+  inheritedMembers:
+  - BOOSE.Canvas.background_colour
+  - BOOSE.Canvas.Circle(System.Int32,System.Boolean)
+  - BOOSE.Canvas.Rect(System.Int32,System.Int32,System.Boolean)
+  - BOOSE.Canvas.Tri(System.Int32,System.Int32)
+  - BOOSE.Canvas.Rectangle(System.Int32,System.Int32,System.Boolean)
+  - BOOSE.Canvas.Clear
+  - BOOSE.Canvas.DrawTo(System.Int32,System.Int32)
+  - BOOSE.Canvas.getBitmap
+  - BOOSE.Canvas.MoveTo(System.Int32,System.Int32)
+  - BOOSE.Canvas.Reset
+  - BOOSE.Canvas.Set(System.Int32,System.Int32)
+  - BOOSE.Canvas.WriteText(System.String)
+  - BOOSE.Canvas.Xpos
+  - BOOSE.Canvas.Ypos
+  - BOOSE.Canvas.PenColour
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: AppTest.CommandsTests.PenCommandTests.MockCanvas.LastR
+  commentId: P:AppTest.CommandsTests.PenCommandTests.MockCanvas.LastR
+  id: LastR
+  parent: AppTest.CommandsTests.PenCommandTests.MockCanvas
+  langs:
+  - csharp
+  - vb
+  name: LastR
+  nameWithType: PenCommandTests.MockCanvas.LastR
+  fullName: AppTest.CommandsTests.PenCommandTests.MockCanvas.LastR
+  type: Property
+  source:
+    remote:
+      path: AppTest/CommandsTests/PenCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: LastR
+    path: ../AppTest/CommandsTests/PenCommandTests.cs
+    startLine: 16
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  syntax:
+    content: public int LastR { get; private set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LastR As Integer
+  overload: AppTest.CommandsTests.PenCommandTests.MockCanvas.LastR*
+- uid: AppTest.CommandsTests.PenCommandTests.MockCanvas.LastG
+  commentId: P:AppTest.CommandsTests.PenCommandTests.MockCanvas.LastG
+  id: LastG
+  parent: AppTest.CommandsTests.PenCommandTests.MockCanvas
+  langs:
+  - csharp
+  - vb
+  name: LastG
+  nameWithType: PenCommandTests.MockCanvas.LastG
+  fullName: AppTest.CommandsTests.PenCommandTests.MockCanvas.LastG
+  type: Property
+  source:
+    remote:
+      path: AppTest/CommandsTests/PenCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: LastG
+    path: ../AppTest/CommandsTests/PenCommandTests.cs
+    startLine: 17
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  syntax:
+    content: public int LastG { get; private set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LastG As Integer
+  overload: AppTest.CommandsTests.PenCommandTests.MockCanvas.LastG*
+- uid: AppTest.CommandsTests.PenCommandTests.MockCanvas.LastB
+  commentId: P:AppTest.CommandsTests.PenCommandTests.MockCanvas.LastB
+  id: LastB
+  parent: AppTest.CommandsTests.PenCommandTests.MockCanvas
+  langs:
+  - csharp
+  - vb
+  name: LastB
+  nameWithType: PenCommandTests.MockCanvas.LastB
+  fullName: AppTest.CommandsTests.PenCommandTests.MockCanvas.LastB
+  type: Property
+  source:
+    remote:
+      path: AppTest/CommandsTests/PenCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: LastB
+    path: ../AppTest/CommandsTests/PenCommandTests.cs
+    startLine: 18
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  syntax:
+    content: public int LastB { get; private set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LastB As Integer
+  overload: AppTest.CommandsTests.PenCommandTests.MockCanvas.LastB*
+- uid: AppTest.CommandsTests.PenCommandTests.MockCanvas.SetColourCalled
+  commentId: P:AppTest.CommandsTests.PenCommandTests.MockCanvas.SetColourCalled
+  id: SetColourCalled
+  parent: AppTest.CommandsTests.PenCommandTests.MockCanvas
+  langs:
+  - csharp
+  - vb
+  name: SetColourCalled
+  nameWithType: PenCommandTests.MockCanvas.SetColourCalled
+  fullName: AppTest.CommandsTests.PenCommandTests.MockCanvas.SetColourCalled
+  type: Property
+  source:
+    remote:
+      path: AppTest/CommandsTests/PenCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: SetColourCalled
+    path: ../AppTest/CommandsTests/PenCommandTests.cs
+    startLine: 19
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  syntax:
+    content: public bool SetColourCalled { get; private set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SetColourCalled As Boolean
+  overload: AppTest.CommandsTests.PenCommandTests.MockCanvas.SetColourCalled*
+- uid: AppTest.CommandsTests.PenCommandTests.MockCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  commentId: M:AppTest.CommandsTests.PenCommandTests.MockCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  id: SetColour(System.Int32,System.Int32,System.Int32)
+  parent: AppTest.CommandsTests.PenCommandTests.MockCanvas
+  langs:
+  - csharp
+  - vb
+  name: SetColour(int, int, int)
+  nameWithType: PenCommandTests.MockCanvas.SetColour(int, int, int)
+  fullName: AppTest.CommandsTests.PenCommandTests.MockCanvas.SetColour(int, int, int)
+  type: Method
+  source:
+    remote:
+      path: AppTest/CommandsTests/PenCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: SetColour
+    path: ../AppTest/CommandsTests/PenCommandTests.cs
+    startLine: 28
+  assemblies:
+  - AppTest
+  namespace: AppTest.CommandsTests
+  summary: Overrides the <xref href="BOOSE.Canvas.SetColour(System.Int32%2cSystem.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> method to capture test data.
+  example: []
+  syntax:
+    content: public override void SetColour(int red, int green, int blue)
+    parameters:
+    - id: red
+      type: System.Int32
+      description: Red component value (0 - 255).
+    - id: green
+      type: System.Int32
+      description: Green component value (0 - 255).
+    - id: blue
+      type: System.Int32
+      description: Blue component value (0 - 255).
+    content.vb: Public Overrides Sub SetColour(red As Integer, green As Integer, blue As Integer)
+  overridden: BOOSE.Canvas.SetColour(System.Int32,System.Int32,System.Int32)
+  overload: AppTest.CommandsTests.PenCommandTests.MockCanvas.SetColour*
+  nameWithType.vb: PenCommandTests.MockCanvas.SetColour(Integer, Integer, Integer)
+  fullName.vb: AppTest.CommandsTests.PenCommandTests.MockCanvas.SetColour(Integer, Integer, Integer)
+  name.vb: SetColour(Integer, Integer, Integer)
+references:
+- uid: BOOSE.Canvas
+  commentId: T:BOOSE.Canvas
+  parent: BOOSE
+  isExternal: true
+  name: Canvas
+  nameWithType: Canvas
+  fullName: BOOSE.Canvas
+- uid: AppTest.CommandsTests.PenCommandTests
+  commentId: T:AppTest.CommandsTests.PenCommandTests
+  href: AppTest.CommandsTests.PenCommandTests.html
+  name: PenCommandTests
+  nameWithType: PenCommandTests
+  fullName: AppTest.CommandsTests.PenCommandTests
+- uid: AppTest.CommandsTests
+  commentId: N:AppTest.CommandsTests
+  href: AppTest.html
+  name: AppTest.CommandsTests
+  nameWithType: AppTest.CommandsTests
+  fullName: AppTest.CommandsTests
+  spec.csharp:
+  - uid: AppTest
+    name: AppTest
+    href: AppTest.html
+  - name: .
+  - uid: AppTest.CommandsTests
+    name: CommandsTests
+    href: AppTest.CommandsTests.html
+  spec.vb:
+  - uid: AppTest
+    name: AppTest
+    href: AppTest.html
+  - name: .
+  - uid: AppTest.CommandsTests
+    name: CommandsTests
+    href: AppTest.CommandsTests.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: BOOSE.ICanvas
+  commentId: T:BOOSE.ICanvas
+  parent: BOOSE
+  isExternal: true
+  name: ICanvas
+  nameWithType: ICanvas
+  fullName: BOOSE.ICanvas
+- uid: BOOSE.Canvas.background_colour
+  commentId: F:BOOSE.Canvas.background_colour
+  parent: BOOSE.Canvas
+  isExternal: true
+  name: background_colour
+  nameWithType: Canvas.background_colour
+  fullName: BOOSE.Canvas.background_colour
+- uid: BOOSE.Canvas.Circle(System.Int32,System.Boolean)
+  commentId: M:BOOSE.Canvas.Circle(System.Int32,System.Boolean)
+  parent: BOOSE.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Circle(int, bool)
+  nameWithType: Canvas.Circle(int, bool)
+  fullName: BOOSE.Canvas.Circle(int, bool)
+  nameWithType.vb: Canvas.Circle(Integer, Boolean)
+  fullName.vb: BOOSE.Canvas.Circle(Integer, Boolean)
+  name.vb: Circle(Integer, Boolean)
+  spec.csharp:
+  - uid: BOOSE.Canvas.Circle(System.Int32,System.Boolean)
+    name: Circle
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Canvas.Circle(System.Int32,System.Boolean)
+    name: Circle
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: BOOSE.Canvas.Rect(System.Int32,System.Int32,System.Boolean)
+  commentId: M:BOOSE.Canvas.Rect(System.Int32,System.Int32,System.Boolean)
+  parent: BOOSE.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Rect(int, int, bool)
+  nameWithType: Canvas.Rect(int, int, bool)
+  fullName: BOOSE.Canvas.Rect(int, int, bool)
+  nameWithType.vb: Canvas.Rect(Integer, Integer, Boolean)
+  fullName.vb: BOOSE.Canvas.Rect(Integer, Integer, Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  spec.csharp:
+  - uid: BOOSE.Canvas.Rect(System.Int32,System.Int32,System.Boolean)
+    name: Rect
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Canvas.Rect(System.Int32,System.Int32,System.Boolean)
+    name: Rect
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: BOOSE.Canvas.Tri(System.Int32,System.Int32)
+  commentId: M:BOOSE.Canvas.Tri(System.Int32,System.Int32)
+  parent: BOOSE.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Tri(int, int)
+  nameWithType: Canvas.Tri(int, int)
+  fullName: BOOSE.Canvas.Tri(int, int)
+  nameWithType.vb: Canvas.Tri(Integer, Integer)
+  fullName.vb: BOOSE.Canvas.Tri(Integer, Integer)
+  name.vb: Tri(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.Canvas.Tri(System.Int32,System.Int32)
+    name: Tri
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Canvas.Tri(System.Int32,System.Int32)
+    name: Tri
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: BOOSE.Canvas.Rectangle(System.Int32,System.Int32,System.Boolean)
+  commentId: M:BOOSE.Canvas.Rectangle(System.Int32,System.Int32,System.Boolean)
+  parent: BOOSE.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Rectangle(int, int, bool)
+  nameWithType: Canvas.Rectangle(int, int, bool)
+  fullName: BOOSE.Canvas.Rectangle(int, int, bool)
+  nameWithType.vb: Canvas.Rectangle(Integer, Integer, Boolean)
+  fullName.vb: BOOSE.Canvas.Rectangle(Integer, Integer, Boolean)
+  name.vb: Rectangle(Integer, Integer, Boolean)
+  spec.csharp:
+  - uid: BOOSE.Canvas.Rectangle(System.Int32,System.Int32,System.Boolean)
+    name: Rectangle
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Canvas.Rectangle(System.Int32,System.Int32,System.Boolean)
+    name: Rectangle
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: BOOSE.Canvas.Clear
+  commentId: M:BOOSE.Canvas.Clear
+  parent: BOOSE.Canvas
+  isExternal: true
+  name: Clear()
+  nameWithType: Canvas.Clear()
+  fullName: BOOSE.Canvas.Clear()
+  spec.csharp:
+  - uid: BOOSE.Canvas.Clear
+    name: Clear
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Canvas.Clear
+    name: Clear
+    isExternal: true
+  - name: (
+  - name: )
+- uid: BOOSE.Canvas.DrawTo(System.Int32,System.Int32)
+  commentId: M:BOOSE.Canvas.DrawTo(System.Int32,System.Int32)
+  parent: BOOSE.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DrawTo(int, int)
+  nameWithType: Canvas.DrawTo(int, int)
+  fullName: BOOSE.Canvas.DrawTo(int, int)
+  nameWithType.vb: Canvas.DrawTo(Integer, Integer)
+  fullName.vb: BOOSE.Canvas.DrawTo(Integer, Integer)
+  name.vb: DrawTo(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.Canvas.DrawTo(System.Int32,System.Int32)
+    name: DrawTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Canvas.DrawTo(System.Int32,System.Int32)
+    name: DrawTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: BOOSE.Canvas.getBitmap
+  commentId: M:BOOSE.Canvas.getBitmap
+  parent: BOOSE.Canvas
+  isExternal: true
+  name: getBitmap()
+  nameWithType: Canvas.getBitmap()
+  fullName: BOOSE.Canvas.getBitmap()
+  spec.csharp:
+  - uid: BOOSE.Canvas.getBitmap
+    name: getBitmap
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Canvas.getBitmap
+    name: getBitmap
+    isExternal: true
+  - name: (
+  - name: )
+- uid: BOOSE.Canvas.MoveTo(System.Int32,System.Int32)
+  commentId: M:BOOSE.Canvas.MoveTo(System.Int32,System.Int32)
+  parent: BOOSE.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: MoveTo(int, int)
+  nameWithType: Canvas.MoveTo(int, int)
+  fullName: BOOSE.Canvas.MoveTo(int, int)
+  nameWithType.vb: Canvas.MoveTo(Integer, Integer)
+  fullName.vb: BOOSE.Canvas.MoveTo(Integer, Integer)
+  name.vb: MoveTo(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.Canvas.MoveTo(System.Int32,System.Int32)
+    name: MoveTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Canvas.MoveTo(System.Int32,System.Int32)
+    name: MoveTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: BOOSE.Canvas.Reset
+  commentId: M:BOOSE.Canvas.Reset
+  parent: BOOSE.Canvas
+  isExternal: true
+  name: Reset()
+  nameWithType: Canvas.Reset()
+  fullName: BOOSE.Canvas.Reset()
+  spec.csharp:
+  - uid: BOOSE.Canvas.Reset
+    name: Reset
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Canvas.Reset
+    name: Reset
+    isExternal: true
+  - name: (
+  - name: )
+- uid: BOOSE.Canvas.Set(System.Int32,System.Int32)
+  commentId: M:BOOSE.Canvas.Set(System.Int32,System.Int32)
+  parent: BOOSE.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Set(int, int)
+  nameWithType: Canvas.Set(int, int)
+  fullName: BOOSE.Canvas.Set(int, int)
+  nameWithType.vb: Canvas.Set(Integer, Integer)
+  fullName.vb: BOOSE.Canvas.Set(Integer, Integer)
+  name.vb: Set(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.Canvas.Set(System.Int32,System.Int32)
+    name: Set
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Canvas.Set(System.Int32,System.Int32)
+    name: Set
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: BOOSE.Canvas.WriteText(System.String)
+  commentId: M:BOOSE.Canvas.WriteText(System.String)
+  parent: BOOSE.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: WriteText(string)
+  nameWithType: Canvas.WriteText(string)
+  fullName: BOOSE.Canvas.WriteText(string)
+  nameWithType.vb: Canvas.WriteText(String)
+  fullName.vb: BOOSE.Canvas.WriteText(String)
+  name.vb: WriteText(String)
+  spec.csharp:
+  - uid: BOOSE.Canvas.WriteText(System.String)
+    name: WriteText
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Canvas.WriteText(System.String)
+    name: WriteText
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: BOOSE.Canvas.Xpos
+  commentId: P:BOOSE.Canvas.Xpos
+  parent: BOOSE.Canvas
+  isExternal: true
+  name: Xpos
+  nameWithType: Canvas.Xpos
+  fullName: BOOSE.Canvas.Xpos
+- uid: BOOSE.Canvas.Ypos
+  commentId: P:BOOSE.Canvas.Ypos
+  parent: BOOSE.Canvas
+  isExternal: true
+  name: Ypos
+  nameWithType: Canvas.Ypos
+  fullName: BOOSE.Canvas.Ypos
+- uid: BOOSE.Canvas.PenColour
+  commentId: P:BOOSE.Canvas.PenColour
+  parent: BOOSE.Canvas
+  isExternal: true
+  name: PenColour
+  nameWithType: Canvas.PenColour
+  fullName: BOOSE.Canvas.PenColour
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AppTest.CommandsTests.PenCommandTests.MockCanvas.LastR*
+  commentId: Overload:AppTest.CommandsTests.PenCommandTests.MockCanvas.LastR
+  href: AppTest.CommandsTests.PenCommandTests.MockCanvas.html#AppTest_CommandsTests_PenCommandTests_MockCanvas_LastR
+  name: LastR
+  nameWithType: PenCommandTests.MockCanvas.LastR
+  fullName: AppTest.CommandsTests.PenCommandTests.MockCanvas.LastR
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: AppTest.CommandsTests.PenCommandTests.MockCanvas.LastG*
+  commentId: Overload:AppTest.CommandsTests.PenCommandTests.MockCanvas.LastG
+  href: AppTest.CommandsTests.PenCommandTests.MockCanvas.html#AppTest_CommandsTests_PenCommandTests_MockCanvas_LastG
+  name: LastG
+  nameWithType: PenCommandTests.MockCanvas.LastG
+  fullName: AppTest.CommandsTests.PenCommandTests.MockCanvas.LastG
+- uid: AppTest.CommandsTests.PenCommandTests.MockCanvas.LastB*
+  commentId: Overload:AppTest.CommandsTests.PenCommandTests.MockCanvas.LastB
+  href: AppTest.CommandsTests.PenCommandTests.MockCanvas.html#AppTest_CommandsTests_PenCommandTests_MockCanvas_LastB
+  name: LastB
+  nameWithType: PenCommandTests.MockCanvas.LastB
+  fullName: AppTest.CommandsTests.PenCommandTests.MockCanvas.LastB
+- uid: AppTest.CommandsTests.PenCommandTests.MockCanvas.SetColourCalled*
+  commentId: Overload:AppTest.CommandsTests.PenCommandTests.MockCanvas.SetColourCalled
+  href: AppTest.CommandsTests.PenCommandTests.MockCanvas.html#AppTest_CommandsTests_PenCommandTests_MockCanvas_SetColourCalled
+  name: SetColourCalled
+  nameWithType: PenCommandTests.MockCanvas.SetColourCalled
+  fullName: AppTest.CommandsTests.PenCommandTests.MockCanvas.SetColourCalled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: BOOSE.Canvas.SetColour(System.Int32,System.Int32,System.Int32)
+  commentId: M:BOOSE.Canvas.SetColour(System.Int32,System.Int32,System.Int32)
+  parent: BOOSE.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: SetColour(int, int, int)
+  nameWithType: Canvas.SetColour(int, int, int)
+  fullName: BOOSE.Canvas.SetColour(int, int, int)
+  nameWithType.vb: Canvas.SetColour(Integer, Integer, Integer)
+  fullName.vb: BOOSE.Canvas.SetColour(Integer, Integer, Integer)
+  name.vb: SetColour(Integer, Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.Canvas.SetColour(System.Int32,System.Int32,System.Int32)
+    name: SetColour
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Canvas.SetColour(System.Int32,System.Int32,System.Int32)
+    name: SetColour
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: AppTest.CommandsTests.PenCommandTests.MockCanvas.SetColour*
+  commentId: Overload:AppTest.CommandsTests.PenCommandTests.MockCanvas.SetColour
+  href: AppTest.CommandsTests.PenCommandTests.MockCanvas.html#AppTest_CommandsTests_PenCommandTests_MockCanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  name: SetColour
+  nameWithType: PenCommandTests.MockCanvas.SetColour
+  fullName: AppTest.CommandsTests.PenCommandTests.MockCanvas.SetColour

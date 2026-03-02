@@ -1,0 +1,149 @@
+### YamlMime:ManagedReference
+items:
+- uid: BOOSEGraphicsEnvironment.IDrawable
+  commentId: T:BOOSEGraphicsEnvironment.IDrawable
+  id: IDrawable
+  parent: BOOSEGraphicsEnvironment
+  children:
+  - BOOSEGraphicsEnvironment.IDrawable.Draw(System.Drawing.Graphics,System.Drawing.Pen,System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: IDrawable
+  nameWithType: IDrawable
+  fullName: BOOSEGraphicsEnvironment.IDrawable
+  type: Interface
+  source:
+    remote:
+      path: BOOSEGraphicsEnvironment/IDrawable.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: IDrawable
+    path: ../BOOSEGraphicsEnvironment/IDrawable.cs
+    startLine: 5
+  assemblies:
+  - BOOSEGraphicsEnvironment
+  namespace: BOOSEGraphicsEnvironment
+  summary: Represents an object that can be drawn on a canvas.
+  example: []
+  syntax:
+    content: public interface IDrawable
+    content.vb: Public Interface IDrawable
+- uid: BOOSEGraphicsEnvironment.IDrawable.Draw(System.Drawing.Graphics,System.Drawing.Pen,System.Int32,System.Int32)
+  commentId: M:BOOSEGraphicsEnvironment.IDrawable.Draw(System.Drawing.Graphics,System.Drawing.Pen,System.Int32,System.Int32)
+  id: Draw(System.Drawing.Graphics,System.Drawing.Pen,System.Int32,System.Int32)
+  parent: BOOSEGraphicsEnvironment.IDrawable
+  langs:
+  - csharp
+  - vb
+  name: Draw(Graphics, Pen, int, int)
+  nameWithType: IDrawable.Draw(Graphics, Pen, int, int)
+  fullName: BOOSEGraphicsEnvironment.IDrawable.Draw(System.Drawing.Graphics, System.Drawing.Pen, int, int)
+  type: Method
+  source:
+    remote:
+      path: BOOSEGraphicsEnvironment/IDrawable.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-Kristen153.git
+    id: Draw
+    path: ../BOOSEGraphicsEnvironment/IDrawable.cs
+    startLine: 15
+  assemblies:
+  - BOOSEGraphicsEnvironment
+  namespace: BOOSEGraphicsEnvironment
+  summary: Draws the object using the specified graphics context, pen, and position.
+  example: []
+  syntax:
+    content: void Draw(Graphics g, Pen pen, int xPos, int yPos)
+    parameters:
+    - id: g
+      type: System.Drawing.Graphics
+      description: The graphics context to draw on.
+    - id: pen
+      type: System.Drawing.Pen
+      description: The pen used for drawing.
+    - id: xPos
+      type: System.Int32
+      description: The X-coordinate where the object should be drawn.
+    - id: yPos
+      type: System.Int32
+      description: The Y-coordinate where the object should be drawn.
+    content.vb: Sub Draw(g As Graphics, pen As Pen, xPos As Integer, yPos As Integer)
+  overload: BOOSEGraphicsEnvironment.IDrawable.Draw*
+  nameWithType.vb: IDrawable.Draw(Graphics, Pen, Integer, Integer)
+  fullName.vb: BOOSEGraphicsEnvironment.IDrawable.Draw(System.Drawing.Graphics, System.Drawing.Pen, Integer, Integer)
+  name.vb: Draw(Graphics, Pen, Integer, Integer)
+references:
+- uid: BOOSEGraphicsEnvironment
+  commentId: N:BOOSEGraphicsEnvironment
+  href: BOOSEGraphicsEnvironment.html
+  name: BOOSEGraphicsEnvironment
+  nameWithType: BOOSEGraphicsEnvironment
+  fullName: BOOSEGraphicsEnvironment
+- uid: BOOSEGraphicsEnvironment.IDrawable.Draw*
+  commentId: Overload:BOOSEGraphicsEnvironment.IDrawable.Draw
+  href: BOOSEGraphicsEnvironment.IDrawable.html#BOOSEGraphicsEnvironment_IDrawable_Draw_System_Drawing_Graphics_System_Drawing_Pen_System_Int32_System_Int32_
+  name: Draw
+  nameWithType: IDrawable.Draw
+  fullName: BOOSEGraphicsEnvironment.IDrawable.Draw
+- uid: System.Drawing.Graphics
+  commentId: T:System.Drawing.Graphics
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.graphics
+  name: Graphics
+  nameWithType: Graphics
+  fullName: System.Drawing.Graphics
+- uid: System.Drawing.Pen
+  commentId: T:System.Drawing.Pen
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.pen
+  name: Pen
+  nameWithType: Pen
+  fullName: System.Drawing.Pen
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
